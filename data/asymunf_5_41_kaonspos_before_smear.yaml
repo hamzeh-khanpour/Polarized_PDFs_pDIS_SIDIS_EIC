@@ -1,0 +1,4600 @@
+dependent_variables:
+- header: {title: "EIC $KA^+$ A1p EIC 5x41"}
+  qualifiers:
+  - {name: process, value: pSIDIS}
+  - {name: observable, value: A1H}
+  - {name: target_isoscalarity, value: 1.0}
+  - {name: prefactor, value: 1}
+  - {name: Vs, value:  28.635642127, units: GeV}
+  - {name: Q, low: 1.0, high: 12.0, integrate: false}
+  - {name: x, low: 0.001, high: 0.70, integrate: false}
+  - {name: z, low: 0.02, high: 0.95, integrate: true}
+  - {name: PS_reduction, ymin: 0.01, ymax: 0.95, W: 0}
+  - {name: hadron, value: KA}
+  - {name: charge, value: +1}
+  values:
+  - errors:
+    - {label: unc, value: 0.001964}
+    - {label: unc, value: 0.007862}
+    value: -0.009614
+  - errors:
+    - {label: unc, value: 0.000841}
+    - {label: unc, value: 0.014174}
+    value: 0.004933
+  - errors:
+    - {label: unc, value: 0.005208}
+    - {label: unc, value: 0.006810}
+    value: 0.029761
+  - errors:
+    - {label: unc, value: 0.001167}
+    - {label: unc, value: 0.006943}
+    value: 0.005118
+  - errors:
+    - {label: unc, value: 0.001044}
+    - {label: unc, value: 0.019424}
+    value: 0.004221
+  - errors:
+    - {label: unc, value: 0.002166}
+    - {label: unc, value: 0.002709}
+    value: 0.004755
+  - errors:
+    - {label: unc, value: 0.001157}
+    - {label: unc, value: 0.021816}
+    value: 0.004931
+  - errors:
+    - {label: unc, value: 0.001391}
+    - {label: unc, value: 0.013820}
+    value: -0.001282
+  - errors:
+    - {label: unc, value: 0.004595}
+    - {label: unc, value: 0.007933}
+    value: 0.016472
+  - errors:
+    - {label: unc, value: 0.002147}
+    - {label: unc, value: 0.015287}
+    value: 0.007913
+  - errors:
+    - {label: unc, value: 0.001163}
+    - {label: unc, value: 0.029378}
+    value: 0.005754
+  - errors:
+    - {label: unc, value: 0.002135}
+    - {label: unc, value: 0.017574}
+    value: 0.009493
+  - errors:
+    - {label: unc, value: 0.015535}
+    - {label: unc, value: 0.002669}
+    value: 0.020602
+  - errors:
+    - {label: unc, value: 0.004274}
+    - {label: unc, value: 0.019938}
+    value: 0.005886
+  - errors:
+    - {label: unc, value: 0.002126}
+    - {label: unc, value: 0.036780}
+    value: 0.013864
+  - errors:
+    - {label: unc, value: 0.001349}
+    - {label: unc, value: 0.008518}
+    value: 0.015462
+  - errors:
+    - {label: unc, value: 0.003928}
+    - {label: unc, value: 0.000024}
+    value: 0.003286
+  - errors:
+    - {label: unc, value: 0.011085}
+    - {label: unc, value: 0.035014}
+    value: 0.017305
+  - errors:
+    - {label: unc, value: 0.004313}
+    - {label: unc, value: 0.053010}
+    value: 0.013797
+  - errors:
+    - {label: unc, value: 0.002150}
+    - {label: unc, value: 0.033647}
+    value: 0.014707
+  - errors:
+    - {label: unc, value: 0.001726}
+    - {label: unc, value: 0.001397}
+    value: 0.013436
+  - errors:
+    - {label: unc, value: 0.010745}
+    - {label: unc, value: 0.016446}
+    value: -0.023748
+  - errors:
+    - {label: unc, value: 0.087999}
+    - {label: unc, value: 0.000439}
+    value: 0.060034
+  - errors:
+    - {label: unc, value: 0.010600}
+    - {label: unc, value: 0.053341}
+    value: 0.038070
+  - errors:
+    - {label: unc, value: 0.004528}
+    - {label: unc, value: 0.050238}
+    value: 0.041305
+  - errors:
+    - {label: unc, value: 0.002278}
+    - {label: unc, value: 0.009345}
+    value: 0.026304
+  - errors:
+    - {label: unc, value: 0.002426}
+    - {label: unc, value: 0.005359}
+    value: 0.018593
+  - errors:
+    - {label: unc, value: 0.054990}
+    - {label: unc, value: 0.046687}
+    value: 0.072947
+  - errors:
+    - {label: unc, value: 0.012247}
+    - {label: unc, value: 0.066742}
+    value: 0.062588
+  - errors:
+    - {label: unc, value: 0.004249}
+    - {label: unc, value: 0.008411}
+    value: 0.049964
+  - errors:
+    - {label: unc, value: 0.002720}
+    - {label: unc, value: 0.007087}
+    value: 0.060283
+  - errors:
+    - {label: unc, value: 0.003882}
+    - {label: unc, value: 0.003884}
+    value: 0.067813
+  - errors:
+    - {label: unc, value: 0.042496}
+    - {label: unc, value: 0.077347}
+    value: 0.119511
+  - errors:
+    - {label: unc, value: 0.009129}
+    - {label: unc, value: 0.029578}
+    value: 0.100466
+  - errors:
+    - {label: unc, value: 0.004869}
+    - {label: unc, value: 0.013638}
+    value: 0.131043
+  - errors:
+    - {label: unc, value: 0.003407}
+    - {label: unc, value: 0.008297}
+    value: 0.131159
+  - errors:
+    - {label: unc, value: 0.006901}
+    - {label: unc, value: 0.002803}
+    value: 0.195738
+  - errors:
+    - {label: unc, value: 0.371793}
+    - {label: unc, value: 0.097091}
+    value: 0.177549
+  - errors:
+    - {label: unc, value: 0.025964}
+    - {label: unc, value: 0.022592}
+    value: 0.176678
+  - errors:
+    - {label: unc, value: 0.010123}
+    - {label: unc, value: 0.002132}
+    value: 0.200829
+  - errors:
+    - {label: unc, value: 0.005986}
+    - {label: unc, value: 0.003816}
+    value: 0.208185
+  - errors:
+    - {label: unc, value: 0.004732}
+    - {label: unc, value: 0.004125}
+    value: 0.226108
+  - errors:
+    - {label: unc, value: 0.153429}
+    - {label: unc, value: 0.022738}
+    value: 0.298391
+  - errors:
+    - {label: unc, value: 0.025709}
+    - {label: unc, value: 0.036958}
+    value: 0.307886
+  - errors:
+    - {label: unc, value: 0.012727}
+    - {label: unc, value: 0.012236}
+    value: 0.278365
+  - errors:
+    - {label: unc, value: 0.007729}
+    - {label: unc, value: 0.006636}
+    value: 0.291021
+  - errors:
+    - {label: unc, value: 0.144407}
+    - {label: unc, value: 0.050383}
+    value: 0.330762
+  - errors:
+    - {label: unc, value: 0.032668}
+    - {label: unc, value: 0.003010}
+    value: 0.458954
+  - errors:
+    - {label: unc, value: 0.020015}
+    - {label: unc, value: 0.030975}
+    value: 0.301432
+  - errors:
+    - {label: unc, value: 0.060095}
+    - {label: unc, value: 0.058679}
+    value: 0.503838
+  - errors:
+    - {label: unc, value: 0.002590}
+    - {label: unc, value: 0.033928}
+    value: 0.005732
+  - errors:
+    - {label: unc, value: 0.001074}
+    - {label: unc, value: 0.006440}
+    value: 0.004875
+  - errors:
+    - {label: unc, value: 0.006696}
+    - {label: unc, value: 0.000084}
+    value: 0.012204
+  - errors:
+    - {label: unc, value: 0.001448}
+    - {label: unc, value: 0.001586}
+    value: 0.007390
+  - errors:
+    - {label: unc, value: 0.001339}
+    - {label: unc, value: 0.006569}
+    value: 0.019418
+  - errors:
+    - {label: unc, value: 0.002545}
+    - {label: unc, value: 0.005206}
+    value: 0.006915
+  - errors:
+    - {label: unc, value: 0.001424}
+    - {label: unc, value: 0.011993}
+    value: 0.014360
+  - errors:
+    - {label: unc, value: 0.001811}
+    - {label: unc, value: 0.009191}
+    value: 0.014308
+  - errors:
+    - {label: unc, value: 0.004396}
+    - {label: unc, value: 0.003024}
+    value: 0.011343
+  - errors:
+    - {label: unc, value: 0.002563}
+    - {label: unc, value: 0.011267}
+    value: 0.010704
+  - errors:
+    - {label: unc, value: 0.001443}
+    - {label: unc, value: 0.024277}
+    value: -0.000163
+  - errors:
+    - {label: unc, value: 0.002810}
+    - {label: unc, value: 0.006172}
+    value: -0.009892
+  - errors:
+    - {label: unc, value: 0.010336}
+    - {label: unc, value: 0.007574}
+    value: 0.014199
+  - errors:
+    - {label: unc, value: 0.004405}
+    - {label: unc, value: 0.008028}
+    value: 0.016401
+  - errors:
+    - {label: unc, value: 0.002430}
+    - {label: unc, value: 0.025682}
+    value: 0.014558
+  - errors:
+    - {label: unc, value: 0.001732}
+    - {label: unc, value: 0.005564}
+    value: 0.024626
+  - errors:
+    - {label: unc, value: 0.005137}
+    - {label: unc, value: 0.003218}
+    value: 0.020464
+  - errors:
+    - {label: unc, value: 0.008301}
+    - {label: unc, value: 0.003061}
+    value: 0.034402
+  - errors:
+    - {label: unc, value: 0.004308}
+    - {label: unc, value: 0.045349}
+    value: 0.026265
+  - errors:
+    - {label: unc, value: 0.002590}
+    - {label: unc, value: 0.028601}
+    value: 0.015038
+  - errors:
+    - {label: unc, value: 0.002188}
+    - {label: unc, value: 0.001021}
+    value: 0.024183
+  - errors:
+    - {label: unc, value: 0.013595}
+    - {label: unc, value: 0.016623}
+    value: 0.052210
+  - errors:
+    - {label: unc, value: 0.041586}
+    - {label: unc, value: 0.007393}
+    value: 0.043502
+  - errors:
+    - {label: unc, value: 0.008098}
+    - {label: unc, value: 0.029470}
+    value: 0.042500
+  - errors:
+    - {label: unc, value: 0.004754}
+    - {label: unc, value: 0.057317}
+    value: 0.036133
+  - errors:
+    - {label: unc, value: 0.002848}
+    - {label: unc, value: 0.010709}
+    value: 0.042748
+  - errors:
+    - {label: unc, value: 0.003045}
+    - {label: unc, value: 0.001281}
+    value: 0.064128
+  - errors:
+    - {label: unc, value: 0.028524}
+    - {label: unc, value: 0.020861}
+    value: 0.068629
+  - errors:
+    - {label: unc, value: 0.009754}
+    - {label: unc, value: 0.070006}
+    value: 0.077068
+  - errors:
+    - {label: unc, value: 0.004884}
+    - {label: unc, value: 0.007050}
+    value: 0.084988
+  - errors:
+    - {label: unc, value: 0.003272}
+    - {label: unc, value: 0.003127}
+    value: 0.075069
+  - errors:
+    - {label: unc, value: 0.004878}
+    - {label: unc, value: 0.009157}
+    value: 0.085992
+  - errors:
+    - {label: unc, value: 0.025495}
+    - {label: unc, value: 0.036118}
+    value: 0.128837
+  - errors:
+    - {label: unc, value: 0.008560}
+    - {label: unc, value: 0.014459}
+    value: 0.121070
+  - errors:
+    - {label: unc, value: 0.005679}
+    - {label: unc, value: 0.002503}
+    value: 0.146464
+  - errors:
+    - {label: unc, value: 0.004071}
+    - {label: unc, value: 0.003516}
+    value: 0.166064
+  - errors:
+    - {label: unc, value: 0.009099}
+    - {label: unc, value: 0.071430}
+    value: 0.143621
+  - errors:
+    - {label: unc, value: 0.138448}
+    - {label: unc, value: 0.078354}
+    value: 0.176517
+  - errors:
+    - {label: unc, value: 0.016569}
+    - {label: unc, value: 0.008338}
+    value: 0.209212
+  - errors:
+    - {label: unc, value: 0.009887}
+    - {label: unc, value: 0.016840}
+    value: 0.187909
+  - errors:
+    - {label: unc, value: 0.006783}
+    - {label: unc, value: 0.004834}
+    value: 0.200493
+  - errors:
+    - {label: unc, value: 0.005706}
+    - {label: unc, value: 0.002362}
+    value: 0.174178
+  - errors:
+    - {label: unc, value: 0.066621}
+    - {label: unc, value: 0.024253}
+    value: 0.275200
+  - errors:
+    - {label: unc, value: 0.019277}
+    - {label: unc, value: 0.006924}
+    value: 0.296580
+  - errors:
+    - {label: unc, value: 0.013010}
+    - {label: unc, value: 0.024930}
+    value: 0.272654
+  - errors:
+    - {label: unc, value: 0.009303}
+    - {label: unc, value: 0.008600}
+    value: 0.310808
+  - errors:
+    - {label: unc, value: 0.060404}
+    - {label: unc, value: 0.009434}
+    value: 0.403824
+  - errors:
+    - {label: unc, value: 0.027028}
+    - {label: unc, value: 0.007649}
+    value: 0.412151
+  - errors:
+    - {label: unc, value: 0.018518}
+    - {label: unc, value: 0.025262}
+    value: 0.415937
+  - errors:
+    - {label: unc, value: 0.097075}
+    - {label: unc, value: 0.028911}
+    value: 0.476830
+  - errors:
+    - {label: unc, value: 0.064903}
+    - {label: unc, value: 0.013316}
+    value: 0.437003
+  - errors:
+    - {label: unc, value: 0.003644}
+    - {label: unc, value: 0.026136}
+    value: 0.031214
+  - errors:
+    - {label: unc, value: 0.001494}
+    - {label: unc, value: 0.000339}
+    value: -0.003674
+  - errors:
+    - {label: unc, value: 0.009063}
+    - {label: unc, value: 0.097487}
+    value: -0.065175
+  - errors:
+    - {label: unc, value: 0.001871}
+    - {label: unc, value: 0.002422}
+    value: 0.004732
+  - errors:
+    - {label: unc, value: 0.001833}
+    - {label: unc, value: 0.001231}
+    value: 0.010516
+  - errors:
+    - {label: unc, value: 0.003088}
+    - {label: unc, value: 0.000986}
+    value: -0.001229
+  - errors:
+    - {label: unc, value: 0.001879}
+    - {label: unc, value: 0.009619}
+    value: 0.008524
+  - errors:
+    - {label: unc, value: 0.002372}
+    - {label: unc, value: 0.014520}
+    value: -0.015417
+  - errors:
+    - {label: unc, value: 0.005564}
+    - {label: unc, value: 0.003836}
+    value: 0.005381
+  - errors:
+    - {label: unc, value: 0.003098}
+    - {label: unc, value: 0.000995}
+    value: 0.017369
+  - errors:
+    - {label: unc, value: 0.001888}
+    - {label: unc, value: 0.008486}
+    value: 0.013872
+  - errors:
+    - {label: unc, value: 0.003696}
+    - {label: unc, value: 0.014852}
+    value: -0.023133
+  - errors:
+    - {label: unc, value: 0.013226}
+    - {label: unc, value: 0.010278}
+    value: 0.021230
+  - errors:
+    - {label: unc, value: 0.005387}
+    - {label: unc, value: 0.004547}
+    value: 0.016087
+  - errors:
+    - {label: unc, value: 0.002987}
+    - {label: unc, value: 0.005741}
+    value: 0.016292
+  - errors:
+    - {label: unc, value: 0.002183}
+    - {label: unc, value: 0.002469}
+    value: 0.020016
+  - errors:
+    - {label: unc, value: 0.006701}
+    - {label: unc, value: 0.017837}
+    value: 0.037675
+  - errors:
+    - {label: unc, value: 0.010595}
+    - {label: unc, value: 0.007999}
+    value: 0.027994
+  - errors:
+    - {label: unc, value: 0.005300}
+    - {label: unc, value: 0.029403}
+    value: 0.023817
+  - errors:
+    - {label: unc, value: 0.003142}
+    - {label: unc, value: 0.039866}
+    value: 0.008278
+  - errors:
+    - {label: unc, value: 0.002779}
+    - {label: unc, value: 0.011166}
+    value: 0.029867
+  - errors:
+    - {label: unc, value: 0.049587}
+    - {label: unc, value: 0.016345}
+    value: 0.041892
+  - errors:
+    - {label: unc, value: 0.010181}
+    - {label: unc, value: 0.019833}
+    value: 0.042868
+  - errors:
+    - {label: unc, value: 0.005568}
+    - {label: unc, value: 0.037796}
+    value: 0.044188
+  - errors:
+    - {label: unc, value: 0.003486}
+    - {label: unc, value: 0.001350}
+    value: 0.063469
+  - errors:
+    - {label: unc, value: 0.003906}
+    - {label: unc, value: 0.010890}
+    value: 0.034140
+  - errors:
+    - {label: unc, value: 0.034394}
+    - {label: unc, value: 0.030174}
+    value: 0.065455
+  - errors:
+    - {label: unc, value: 0.011600}
+    - {label: unc, value: 0.068193}
+    value: 0.071675
+  - errors:
+    - {label: unc, value: 0.005692}
+    - {label: unc, value: 0.017583}
+    value: 0.058850
+  - errors:
+    - {label: unc, value: 0.004057}
+    - {label: unc, value: 0.010050}
+    value: 0.061722
+  - errors:
+    - {label: unc, value: 0.006141}
+    - {label: unc, value: 0.013721}
+    value: 0.067542
+  - errors:
+    - {label: unc, value: 0.029866}
+    - {label: unc, value: 0.063628}
+    value: 0.121617
+  - errors:
+    - {label: unc, value: 0.010112}
+    - {label: unc, value: 0.009012}
+    value: 0.116788
+  - errors:
+    - {label: unc, value: 0.006614}
+    - {label: unc, value: 0.002984}
+    value: 0.147034
+  - errors:
+    - {label: unc, value: 0.005102}
+    - {label: unc, value: 0.007454}
+    value: 0.163734
+  - errors:
+    - {label: unc, value: 0.011325}
+    - {label: unc, value: 0.022581}
+    value: 0.192360
+  - errors:
+    - {label: unc, value: 0.128059}
+    - {label: unc, value: 0.079978}
+    value: 0.179402
+  - errors:
+    - {label: unc, value: 0.019306}
+    - {label: unc, value: 0.035196}
+    value: 0.183013
+  - errors:
+    - {label: unc, value: 0.011411}
+    - {label: unc, value: 0.011348}
+    value: 0.211754
+  - errors:
+    - {label: unc, value: 0.008456}
+    - {label: unc, value: 0.015761}
+    value: 0.172203
+  - errors:
+    - {label: unc, value: 0.007337}
+    - {label: unc, value: 0.002910}
+    value: 0.173299
+  - errors:
+    - {label: unc, value: 0.069421}
+    - {label: unc, value: 0.004442}
+    value: 0.274321
+  - errors:
+    - {label: unc, value: 0.022753}
+    - {label: unc, value: 0.001760}
+    value: 0.291940
+  - errors:
+    - {label: unc, value: 0.014877}
+    - {label: unc, value: 0.024280}
+    value: 0.264664
+  - errors:
+    - {label: unc, value: 0.010708}
+    - {label: unc, value: 0.029408}
+    value: 0.297798
+  - errors:
+    - {label: unc, value: 0.063538}
+    - {label: unc, value: 0.049735}
+    value: 0.366534
+  - errors:
+    - {label: unc, value: 0.032849}
+    - {label: unc, value: 0.017719}
+    value: 0.409041
+  - errors:
+    - {label: unc, value: 0.023239}
+    - {label: unc, value: 0.007357}
+    value: 0.385855
+  - errors:
+    - {label: unc, value: 0.101507}
+    - {label: unc, value: 0.012598}
+    value: 0.490120
+  - errors:
+    - {label: unc, value: 0.065558}
+    - {label: unc, value: 0.021709}
+    value: 0.528864
+  - errors:
+    - {label: unc, value: 0.004553}
+    - {label: unc, value: 0.005382}
+    value: -0.032195
+  - errors:
+    - {label: unc, value: 0.001915}
+    - {label: unc, value: 0.003048}
+    value: -0.008017
+  - errors:
+    - {label: unc, value: 0.011633}
+    - {label: unc, value: 0.002453}
+    value: -0.022354
+  - errors:
+    - {label: unc, value: 0.002394}
+    - {label: unc, value: 0.006577}
+    value: 0.004996
+  - errors:
+    - {label: unc, value: 0.002340}
+    - {label: unc, value: 0.016393}
+    value: 0.010572
+  - errors:
+    - {label: unc, value: 0.003785}
+    - {label: unc, value: 0.003003}
+    value: 0.001850
+  - errors:
+    - {label: unc, value: 0.002367}
+    - {label: unc, value: 0.002379}
+    value: 0.008051
+  - errors:
+    - {label: unc, value: 0.002911}
+    - {label: unc, value: 0.012491}
+    value: 0.001366
+  - errors:
+    - {label: unc, value: 0.006514}
+    - {label: unc, value: 0.000831}
+    value: 0.006199
+  - errors:
+    - {label: unc, value: 0.003823}
+    - {label: unc, value: 0.000694}
+    value: 0.007196
+  - errors:
+    - {label: unc, value: 0.002301}
+    - {label: unc, value: 0.002440}
+    value: 0.009985
+  - errors:
+    - {label: unc, value: 0.004364}
+    - {label: unc, value: 0.005626}
+    value: -0.012268
+  - errors:
+    - {label: unc, value: 0.015754}
+    - {label: unc, value: 0.010974}
+    value: 0.016076
+  - errors:
+    - {label: unc, value: 0.006275}
+    - {label: unc, value: 0.001851}
+    value: 0.022089
+  - errors:
+    - {label: unc, value: 0.003670}
+    - {label: unc, value: 0.017308}
+    value: 0.007649
+  - errors:
+    - {label: unc, value: 0.002666}
+    - {label: unc, value: 0.000216}
+    value: -0.000571
+  - errors:
+    - {label: unc, value: 0.007902}
+    - {label: unc, value: 0.016544}
+    value: 0.044365
+  - errors:
+    - {label: unc, value: 0.012329}
+    - {label: unc, value: 0.015377}
+    value: 0.015608
+  - errors:
+    - {label: unc, value: 0.006123}
+    - {label: unc, value: 0.016766}
+    value: 0.029566
+  - errors:
+    - {label: unc, value: 0.003818}
+    - {label: unc, value: 0.012997}
+    value: 0.018139
+  - errors:
+    - {label: unc, value: 0.003332}
+    - {label: unc, value: 0.015909}
+    value: 0.008624
+  - errors:
+    - {label: unc, value: 0.058550}
+    - {label: unc, value: 0.006386}
+    value: 0.049046
+  - errors:
+    - {label: unc, value: 0.011723}
+    - {label: unc, value: 0.013647}
+    value: 0.032073
+  - errors:
+    - {label: unc, value: 0.006640}
+    - {label: unc, value: 0.036507}
+    value: 0.041625
+  - errors:
+    - {label: unc, value: 0.004138}
+    - {label: unc, value: 0.002960}
+    value: 0.042316
+  - errors:
+    - {label: unc, value: 0.004638}
+    - {label: unc, value: 0.009909}
+    value: 0.027632
+  - errors:
+    - {label: unc, value: 0.040033}
+    - {label: unc, value: 0.043090}
+    value: 0.067865
+  - errors:
+    - {label: unc, value: 0.013360}
+    - {label: unc, value: 0.078737}
+    value: 0.047118
+  - errors:
+    - {label: unc, value: 0.006656}
+    - {label: unc, value: 0.001583}
+    value: 0.062831
+  - errors:
+    - {label: unc, value: 0.004810}
+    - {label: unc, value: 0.014588}
+    value: 0.032252
+  - errors:
+    - {label: unc, value: 0.007170}
+    - {label: unc, value: 0.025773}
+    value: 0.103454
+  - errors:
+    - {label: unc, value: 0.033384}
+    - {label: unc, value: 0.070396}
+    value: 0.131607
+  - errors:
+    - {label: unc, value: 0.011287}
+    - {label: unc, value: 0.003252}
+    value: 0.127907
+  - errors:
+    - {label: unc, value: 0.007823}
+    - {label: unc, value: 0.006605}
+    value: 0.140906
+  - errors:
+    - {label: unc, value: 0.006053}
+    - {label: unc, value: 0.017858}
+    value: 0.125733
+  - errors:
+    - {label: unc, value: 0.013361}
+    - {label: unc, value: 0.005289}
+    value: 0.054063
+  - errors:
+    - {label: unc, value: 0.149772}
+    - {label: unc, value: 0.050578}
+    value: 0.211308
+  - errors:
+    - {label: unc, value: 0.021996}
+    - {label: unc, value: 0.031380}
+    value: 0.194423
+  - errors:
+    - {label: unc, value: 0.013130}
+    - {label: unc, value: 0.036057}
+    value: 0.180894
+  - errors:
+    - {label: unc, value: 0.010002}
+    - {label: unc, value: 0.005113}
+    value: 0.219875
+  - errors:
+    - {label: unc, value: 0.008429}
+    - {label: unc, value: 0.007653}
+    value: 0.229251
+  - errors:
+    - {label: unc, value: 0.077211}
+    - {label: unc, value: 0.007247}
+    value: 0.291039
+  - errors:
+    - {label: unc, value: 0.024716}
+    - {label: unc, value: 0.010272}
+    value: 0.281708
+  - errors:
+    - {label: unc, value: 0.017106}
+    - {label: unc, value: 0.009752}
+    value: 0.311036
+  - errors:
+    - {label: unc, value: 0.013938}
+    - {label: unc, value: 0.002366}
+    value: 0.251236
+  - errors:
+    - {label: unc, value: 0.074241}
+    - {label: unc, value: 0.013841}
+    value: 0.380169
+  - errors:
+    - {label: unc, value: 0.034387}
+    - {label: unc, value: 0.024039}
+    value: 0.426859
+  - errors:
+    - {label: unc, value: 0.026308}
+    - {label: unc, value: 0.026037}
+    value: 0.421363
+  - errors:
+    - {label: unc, value: 0.123418}
+    - {label: unc, value: 0.042828}
+    value: 0.426582
+  - errors:
+    - {label: unc, value: 0.073435}
+    - {label: unc, value: 0.020918}
+    value: 0.474849
+  - errors:
+    - {label: unc, value: 0.005632}
+    - {label: unc, value: 0.003153}
+    value: 0.002287
+  - errors:
+    - {label: unc, value: 0.002302}
+    - {label: unc, value: 0.011171}
+    value: -0.014283
+  - errors:
+    - {label: unc, value: 0.012823}
+    - {label: unc, value: 0.091519}
+    value: 0.047375
+  - errors:
+    - {label: unc, value: 0.002952}
+    - {label: unc, value: 0.005556}
+    value: -0.003867
+  - errors:
+    - {label: unc, value: 0.002769}
+    - {label: unc, value: 0.006073}
+    value: 0.011672
+  - errors:
+    - {label: unc, value: 0.004606}
+    - {label: unc, value: 0.003194}
+    value: -0.009496
+  - errors:
+    - {label: unc, value: 0.002871}
+    - {label: unc, value: 0.000861}
+    value: 0.017724
+  - errors:
+    - {label: unc, value: 0.003398}
+    - {label: unc, value: 0.020134}
+    value: -0.016563
+  - errors:
+    - {label: unc, value: 0.007633}
+    - {label: unc, value: 0.003987}
+    value: 0.011973
+  - errors:
+    - {label: unc, value: 0.004627}
+    - {label: unc, value: 0.002315}
+    value: 0.020473
+  - errors:
+    - {label: unc, value: 0.002745}
+    - {label: unc, value: 0.003310}
+    value: 0.000047
+  - errors:
+    - {label: unc, value: 0.005020}
+    - {label: unc, value: 0.030074}
+    value: 0.021718
+  - errors:
+    - {label: unc, value: 0.018118}
+    - {label: unc, value: 0.012459}
+    value: 0.017416
+  - errors:
+    - {label: unc, value: 0.007309}
+    - {label: unc, value: 0.013263}
+    value: 0.009277
+  - errors:
+    - {label: unc, value: 0.004394}
+    - {label: unc, value: 0.014518}
+    value: 0.008037
+  - errors:
+    - {label: unc, value: 0.003073}
+    - {label: unc, value: 0.014871}
+    value: 0.022244
+  - errors:
+    - {label: unc, value: 0.009191}
+    - {label: unc, value: 0.024510}
+    value: 0.073081
+  - errors:
+    - {label: unc, value: 0.013736}
+    - {label: unc, value: 0.004780}
+    value: 0.016115
+  - errors:
+    - {label: unc, value: 0.007249}
+    - {label: unc, value: 0.026229}
+    value: 0.010356
+  - errors:
+    - {label: unc, value: 0.004508}
+    - {label: unc, value: 0.008368}
+    value: 0.028365
+  - errors:
+    - {label: unc, value: 0.003832}
+    - {label: unc, value: 0.021856}
+    value: 0.020288
+  - errors:
+    - {label: unc, value: 0.065867}
+    - {label: unc, value: 0.002793}
+    value: 0.052612
+  - errors:
+    - {label: unc, value: 0.013102}
+    - {label: unc, value: 0.022516}
+    value: 0.044597
+  - errors:
+    - {label: unc, value: 0.007877}
+    - {label: unc, value: 0.028486}
+    value: 0.036682
+  - errors:
+    - {label: unc, value: 0.004814}
+    - {label: unc, value: 0.014274}
+    value: 0.070141
+  - errors:
+    - {label: unc, value: 0.005446}
+    - {label: unc, value: 0.009559}
+    value: 0.025546
+  - errors:
+    - {label: unc, value: 0.044131}
+    - {label: unc, value: 0.027986}
+    value: 0.077975
+  - errors:
+    - {label: unc, value: 0.015177}
+    - {label: unc, value: 0.026862}
+    value: 0.085092
+  - errors:
+    - {label: unc, value: 0.007846}
+    - {label: unc, value: 0.004096}
+    value: 0.058187
+  - errors:
+    - {label: unc, value: 0.005574}
+    - {label: unc, value: 0.020129}
+    value: 0.070600
+  - errors:
+    - {label: unc, value: 0.008658}
+    - {label: unc, value: 0.000473}
+    value: 0.072952
+  - errors:
+    - {label: unc, value: 0.037439}
+    - {label: unc, value: 0.081425}
+    value: 0.106501
+  - errors:
+    - {label: unc, value: 0.012888}
+    - {label: unc, value: 0.015856}
+    value: 0.139610
+  - errors:
+    - {label: unc, value: 0.009175}
+    - {label: unc, value: 0.022914}
+    value: 0.137367
+  - errors:
+    - {label: unc, value: 0.007335}
+    - {label: unc, value: 0.008699}
+    value: 0.045637
+  - errors:
+    - {label: unc, value: 0.015686}
+    - {label: unc, value: 0.030531}
+    value: 0.109958
+  - errors:
+    - {label: unc, value: 0.163356}
+    - {label: unc, value: 0.084926}
+    value: 0.197225
+  - errors:
+    - {label: unc, value: 0.024434}
+    - {label: unc, value: 0.002640}
+    value: 0.219064
+  - errors:
+    - {label: unc, value: 0.015425}
+    - {label: unc, value: 0.003762}
+    value: 0.192575
+  - errors:
+    - {label: unc, value: 0.011509}
+    - {label: unc, value: 0.032463}
+    value: 0.243436
+  - errors:
+    - {label: unc, value: 0.009977}
+    - {label: unc, value: 0.014231}
+    value: 0.271061
+  - errors:
+    - {label: unc, value: 0.088557}
+    - {label: unc, value: 0.021791}
+    value: 0.279113
+  - errors:
+    - {label: unc, value: 0.029775}
+    - {label: unc, value: 0.000611}
+    value: 0.261550
+  - errors:
+    - {label: unc, value: 0.019057}
+    - {label: unc, value: 0.008000}
+    value: 0.307690
+  - errors:
+    - {label: unc, value: 0.015575}
+    - {label: unc, value: 0.007514}
+    value: 0.284847
+  - errors:
+    - {label: unc, value: 0.085816}
+    - {label: unc, value: 0.003954}
+    value: 0.373181
+  - errors:
+    - {label: unc, value: 0.043603}
+    - {label: unc, value: 0.001599}
+    value: 0.349398
+  - errors:
+    - {label: unc, value: 0.031198}
+    - {label: unc, value: 0.058611}
+    value: 0.295762
+  - errors:
+    - {label: unc, value: 0.125055}
+    - {label: unc, value: 0.023510}
+    value: 0.571732
+  - errors:
+    - {label: unc, value: 0.081768}
+    - {label: unc, value: 0.044944}
+    value: 0.553687
+  - errors:
+    - {label: unc, value: 0.006400}
+    - {label: unc, value: 0.001492}
+    value: -0.013709
+  - errors:
+    - {label: unc, value: 0.002727}
+    - {label: unc, value: 0.000847}
+    value: 0.008062
+  - errors:
+    - {label: unc, value: 0.015517}
+    - {label: unc, value: 0.044793}
+    value: 0.150587
+  - errors:
+    - {label: unc, value: 0.003512}
+    - {label: unc, value: 0.000589}
+    value: -0.006901
+  - errors:
+    - {label: unc, value: 0.003316}
+    - {label: unc, value: 0.007052}
+    value: 0.001028
+  - errors:
+    - {label: unc, value: 0.005505}
+    - {label: unc, value: 0.001517}
+    value: -0.001976
+  - errors:
+    - {label: unc, value: 0.003392}
+    - {label: unc, value: 0.006495}
+    value: 0.020782
+  - errors:
+    - {label: unc, value: 0.003971}
+    - {label: unc, value: 0.001791}
+    value: 0.005642
+  - errors:
+    - {label: unc, value: 0.008975}
+    - {label: unc, value: 0.010358}
+    value: 0.007707
+  - errors:
+    - {label: unc, value: 0.005473}
+    - {label: unc, value: 0.006592}
+    value: 0.010239
+  - errors:
+    - {label: unc, value: 0.003266}
+    - {label: unc, value: 0.009096}
+    value: 0.007746
+  - errors:
+    - {label: unc, value: 0.005756}
+    - {label: unc, value: 0.010078}
+    value: 0.009227
+  - errors:
+    - {label: unc, value: 0.020294}
+    - {label: unc, value: 0.006628}
+    value: 0.016839
+  - errors:
+    - {label: unc, value: 0.008590}
+    - {label: unc, value: 0.000511}
+    value: 0.024211
+  - errors:
+    - {label: unc, value: 0.005216}
+    - {label: unc, value: 0.004030}
+    value: -0.005294
+  - errors:
+    - {label: unc, value: 0.003633}
+    - {label: unc, value: 0.005809}
+    value: -0.003130
+  - errors:
+    - {label: unc, value: 0.010133}
+    - {label: unc, value: 0.000677}
+    value: 0.056506
+  - errors:
+    - {label: unc, value: 0.015705}
+    - {label: unc, value: 0.007081}
+    value: 0.015607
+  - errors:
+    - {label: unc, value: 0.008570}
+    - {label: unc, value: 0.012325}
+    value: 0.022004
+  - errors:
+    - {label: unc, value: 0.005301}
+    - {label: unc, value: 0.001207}
+    value: 0.036382
+  - errors:
+    - {label: unc, value: 0.004317}
+    - {label: unc, value: 0.012896}
+    value: 0.025060
+  - errors:
+    - {label: unc, value: 0.072926}
+    - {label: unc, value: 0.015236}
+    value: 0.057664
+  - errors:
+    - {label: unc, value: 0.014961}
+    - {label: unc, value: 0.008982}
+    value: 0.032026
+  - errors:
+    - {label: unc, value: 0.009170}
+    - {label: unc, value: 0.019343}
+    value: 0.049798
+  - errors:
+    - {label: unc, value: 0.005554}
+    - {label: unc, value: 0.017182}
+    value: 0.019573
+  - errors:
+    - {label: unc, value: 0.006200}
+    - {label: unc, value: 0.001923}
+    value: 0.064049
+  - errors:
+    - {label: unc, value: 0.049459}
+    - {label: unc, value: 0.029943}
+    value: 0.080701
+  - errors:
+    - {label: unc, value: 0.017680}
+    - {label: unc, value: 0.044487}
+    value: 0.090866
+  - errors:
+    - {label: unc, value: 0.008926}
+    - {label: unc, value: 0.017238}
+    value: 0.044054
+  - errors:
+    - {label: unc, value: 0.006554}
+    - {label: unc, value: 0.000727}
+    value: 0.038659
+  - errors:
+    - {label: unc, value: 0.009495}
+    - {label: unc, value: 0.004447}
+    value: 0.044079
+  - errors:
+    - {label: unc, value: 0.041686}
+    - {label: unc, value: 0.039777}
+    value: 0.135331
+  - errors:
+    - {label: unc, value: 0.014924}
+    - {label: unc, value: 0.027593}
+    value: 0.119570
+  - errors:
+    - {label: unc, value: 0.010567}
+    - {label: unc, value: 0.016576}
+    value: 0.163726
+  - errors:
+    - {label: unc, value: 0.008353}
+    - {label: unc, value: 0.025501}
+    value: 0.098837
+  - errors:
+    - {label: unc, value: 0.173261}
+    - {label: unc, value: 0.045106}
+    value: 0.210392
+  - errors:
+    - {label: unc, value: 0.027790}
+    - {label: unc, value: 0.004418}
+    value: 0.198824
+  - errors:
+    - {label: unc, value: 0.017316}
+    - {label: unc, value: 0.013693}
+    value: 0.214459
+  - errors:
+    - {label: unc, value: 0.012909}
+    - {label: unc, value: 0.002560}
+    value: 0.240045
+  - errors:
+    - {label: unc, value: 0.011910}
+    - {label: unc, value: 0.011339}
+    value: 0.223630
+  - errors:
+    - {label: unc, value: 0.097887}
+    - {label: unc, value: 0.013646}
+    value: 0.299266
+  - errors:
+    - {label: unc, value: 0.032744}
+    - {label: unc, value: 0.008753}
+    value: 0.317348
+  - errors:
+    - {label: unc, value: 0.024083}
+    - {label: unc, value: 0.004281}
+    value: 0.270235
+  - errors:
+    - {label: unc, value: 0.019008}
+    - {label: unc, value: 0.037227}
+    value: 0.297198
+  - errors:
+    - {label: unc, value: 0.091606}
+    - {label: unc, value: 0.028611}
+    value: 0.416423
+  - errors:
+    - {label: unc, value: 0.045091}
+    - {label: unc, value: 0.041175}
+    value: 0.421563
+  - errors:
+    - {label: unc, value: 0.034977}
+    - {label: unc, value: 0.012473}
+    value: 0.417145
+  - errors:
+    - {label: unc, value: 0.134032}
+    - {label: unc, value: 0.021055}
+    value: 0.558557
+  - errors:
+    - {label: unc, value: 0.005805}
+    - {label: unc, value: 0.032579}
+    value: -0.002347
+  - errors:
+    - {label: unc, value: 0.002350}
+    - {label: unc, value: 0.009179}
+    value: -0.008447
+  - errors:
+    - {label: unc, value: 0.014164}
+    - {label: unc, value: 0.043396}
+    value: -0.078147
+  - errors:
+    - {label: unc, value: 0.003011}
+    - {label: unc, value: 0.006169}
+    value: 0.002751
+  - errors:
+    - {label: unc, value: 0.002902}
+    - {label: unc, value: 0.012668}
+    value: 0.015925
+  - errors:
+    - {label: unc, value: 0.004789}
+    - {label: unc, value: 0.006421}
+    value: -0.001454
+  - errors:
+    - {label: unc, value: 0.002971}
+    - {label: unc, value: 0.002437}
+    value: 0.013387
+  - errors:
+    - {label: unc, value: 0.003443}
+    - {label: unc, value: 0.001334}
+    value: -0.020363
+  - errors:
+    - {label: unc, value: 0.007627}
+    - {label: unc, value: 0.003375}
+    value: 0.006346
+  - errors:
+    - {label: unc, value: 0.004728}
+    - {label: unc, value: 0.002209}
+    value: 0.003364
+  - errors:
+    - {label: unc, value: 0.002832}
+    - {label: unc, value: 0.009234}
+    value: 0.017335
+  - errors:
+    - {label: unc, value: 0.005006}
+    - {label: unc, value: 0.013030}
+    value: 0.062902
+  - errors:
+    - {label: unc, value: 0.016989}
+    - {label: unc, value: 0.001108}
+    value: 0.019889
+  - errors:
+    - {label: unc, value: 0.007300}
+    - {label: unc, value: 0.003235}
+    value: 0.025326
+  - errors:
+    - {label: unc, value: 0.004571}
+    - {label: unc, value: 0.021632}
+    value: 0.007805
+  - errors:
+    - {label: unc, value: 0.003097}
+    - {label: unc, value: 0.008799}
+    value: -0.010698
+  - errors:
+    - {label: unc, value: 0.009149}
+    - {label: unc, value: 0.065108}
+    value: -0.063344
+  - errors:
+    - {label: unc, value: 0.013219}
+    - {label: unc, value: 0.012002}
+    value: 0.022526
+  - errors:
+    - {label: unc, value: 0.007385}
+    - {label: unc, value: 0.017073}
+    value: 0.024567
+  - errors:
+    - {label: unc, value: 0.004640}
+    - {label: unc, value: 0.004976}
+    value: 0.048419
+  - errors:
+    - {label: unc, value: 0.003849}
+    - {label: unc, value: 0.009475}
+    value: 0.008569
+  - errors:
+    - {label: unc, value: 0.060421}
+    - {label: unc, value: 0.001488}
+    value: 0.047263
+  - errors:
+    - {label: unc, value: 0.012839}
+    - {label: unc, value: 0.005754}
+    value: 0.041855
+  - errors:
+    - {label: unc, value: 0.008075}
+    - {label: unc, value: 0.003687}
+    value: 0.054306
+  - errors:
+    - {label: unc, value: 0.004852}
+    - {label: unc, value: 0.012649}
+    value: 0.008908
+  - errors:
+    - {label: unc, value: 0.005437}
+    - {label: unc, value: 0.000602}
+    value: 0.079243
+  - errors:
+    - {label: unc, value: 0.041469}
+    - {label: unc, value: 0.014910}
+    value: 0.077571
+  - errors:
+    - {label: unc, value: 0.015478}
+    - {label: unc, value: 0.039227}
+    value: 0.081329
+  - errors:
+    - {label: unc, value: 0.007740}
+    - {label: unc, value: 0.000580}
+    value: 0.109916
+  - errors:
+    - {label: unc, value: 0.005731}
+    - {label: unc, value: 0.001069}
+    value: 0.075230
+  - errors:
+    - {label: unc, value: 0.008833}
+    - {label: unc, value: 0.000860}
+    value: 0.090883
+  - errors:
+    - {label: unc, value: 0.034973}
+    - {label: unc, value: 0.072923}
+    value: 0.132673
+  - errors:
+    - {label: unc, value: 0.012844}
+    - {label: unc, value: 0.012213}
+    value: 0.121782
+  - errors:
+    - {label: unc, value: 0.009231}
+    - {label: unc, value: 0.010033}
+    value: 0.138536
+  - errors:
+    - {label: unc, value: 0.007369}
+    - {label: unc, value: 0.010557}
+    value: 0.092684
+  - errors:
+    - {label: unc, value: 0.016247}
+    - {label: unc, value: 0.001688}
+    value: 0.095633
+  - errors:
+    - {label: unc, value: 0.131032}
+    - {label: unc, value: 0.069846}
+    value: 0.226353
+  - errors:
+    - {label: unc, value: 0.023405}
+    - {label: unc, value: 0.002844}
+    value: 0.216553
+  - errors:
+    - {label: unc, value: 0.015408}
+    - {label: unc, value: 0.001622}
+    value: 0.194098
+  - errors:
+    - {label: unc, value: 0.011376}
+    - {label: unc, value: 0.015172}
+    value: 0.245525
+  - errors:
+    - {label: unc, value: 0.009869}
+    - {label: unc, value: 0.040551}
+    value: 0.227038
+  - errors:
+    - {label: unc, value: 0.079651}
+    - {label: unc, value: 0.003306}
+    value: 0.317926
+  - errors:
+    - {label: unc, value: 0.027245}
+    - {label: unc, value: 0.022455}
+    value: 0.318497
+  - errors:
+    - {label: unc, value: 0.019853}
+    - {label: unc, value: 0.022730}
+    value: 0.313300
+  - errors:
+    - {label: unc, value: 0.015542}
+    - {label: unc, value: 0.009390}
+    value: 0.329979
+  - errors:
+    - {label: unc, value: 0.077706}
+    - {label: unc, value: 0.030290}
+    value: 0.427677
+  - errors:
+    - {label: unc, value: 0.039281}
+    - {label: unc, value: 0.002304}
+    value: 0.451855
+  - errors:
+    - {label: unc, value: 0.029352}
+    - {label: unc, value: 0.014512}
+    value: 0.452536
+  - errors:
+    - {label: unc, value: 0.117762}
+    - {label: unc, value: 0.022470}
+    value: 0.584199
+  - errors:
+    - {label: unc, value: 0.007138}
+    - {label: unc, value: 0.000419}
+    value: 0.002688
+  - errors:
+    - {label: unc, value: 0.002912}
+    - {label: unc, value: 0.002024}
+    value: -0.002007
+  - errors:
+    - {label: unc, value: 0.003657}
+    - {label: unc, value: 0.005695}
+    value: 0.003185
+  - errors:
+    - {label: unc, value: 0.003813}
+    - {label: unc, value: 0.012574}
+    value: -0.027594
+  - errors:
+    - {label: unc, value: 0.005844}
+    - {label: unc, value: 0.010123}
+    value: -0.002571
+  - errors:
+    - {label: unc, value: 0.003822}
+    - {label: unc, value: 0.000051}
+    value: -0.003145
+  - errors:
+    - {label: unc, value: 0.004619}
+    - {label: unc, value: 0.004809}
+    value: 0.017644
+  - errors:
+    - {label: unc, value: 0.009396}
+    - {label: unc, value: 0.001385}
+    value: 0.023979
+  - errors:
+    - {label: unc, value: 0.005838}
+    - {label: unc, value: 0.007249}
+    value: -0.001883
+  - errors:
+    - {label: unc, value: 0.003733}
+    - {label: unc, value: 0.003760}
+    value: 0.007202
+  - errors:
+    - {label: unc, value: 0.006752}
+    - {label: unc, value: 0.046296}
+    value: 0.039687
+  - errors:
+    - {label: unc, value: 0.020964}
+    - {label: unc, value: 0.006300}
+    value: 0.021609
+  - errors:
+    - {label: unc, value: 0.009045}
+    - {label: unc, value: 0.009468}
+    value: 0.010058
+  - errors:
+    - {label: unc, value: 0.005967}
+    - {label: unc, value: 0.002135}
+    value: 0.027267
+  - errors:
+    - {label: unc, value: 0.004067}
+    - {label: unc, value: 0.006599}
+    value: 0.010766
+  - errors:
+    - {label: unc, value: 0.012712}
+    - {label: unc, value: 0.015961}
+    value: 0.059606
+  - errors:
+    - {label: unc, value: 0.016480}
+    - {label: unc, value: 0.004557}
+    value: 0.047745
+  - errors:
+    - {label: unc, value: 0.009494}
+    - {label: unc, value: 0.014532}
+    value: 0.019451
+  - errors:
+    - {label: unc, value: 0.006038}
+    - {label: unc, value: 0.005661}
+    value: 0.042759
+  - errors:
+    - {label: unc, value: 0.005214}
+    - {label: unc, value: 0.001141}
+    value: 0.018571
+  - errors:
+    - {label: unc, value: 0.073327}
+    - {label: unc, value: 0.008715}
+    value: 0.050210
+  - errors:
+    - {label: unc, value: 0.016403}
+    - {label: unc, value: 0.010036}
+    value: 0.060350
+  - errors:
+    - {label: unc, value: 0.010485}
+    - {label: unc, value: 0.016839}
+    value: 0.035128
+  - errors:
+    - {label: unc, value: 0.006321}
+    - {label: unc, value: 0.001764}
+    value: 0.056482
+  - errors:
+    - {label: unc, value: 0.006969}
+    - {label: unc, value: 0.002744}
+    value: 0.047208
+  - errors:
+    - {label: unc, value: 0.050723}
+    - {label: unc, value: 0.019942}
+    value: 0.092952
+  - errors:
+    - {label: unc, value: 0.020109}
+    - {label: unc, value: 0.017243}
+    value: 0.095875
+  - errors:
+    - {label: unc, value: 0.010112}
+    - {label: unc, value: 0.006493}
+    value: 0.078675
+  - errors:
+    - {label: unc, value: 0.007619}
+    - {label: unc, value: 0.009217}
+    value: 0.052442
+  - errors:
+    - {label: unc, value: 0.011699}
+    - {label: unc, value: 0.022764}
+    value: 0.060830
+  - errors:
+    - {label: unc, value: 0.044437}
+    - {label: unc, value: 0.014854}
+    value: 0.159516
+  - errors:
+    - {label: unc, value: 0.016432}
+    - {label: unc, value: 0.010475}
+    value: 0.128538
+  - errors:
+    - {label: unc, value: 0.011762}
+    - {label: unc, value: 0.006780}
+    value: 0.182239
+  - errors:
+    - {label: unc, value: 0.009610}
+    - {label: unc, value: 0.010958}
+    value: 0.122340
+  - errors:
+    - {label: unc, value: 0.028894}
+    - {label: unc, value: 0.026773}
+    value: 0.215468
+  - errors:
+    - {label: unc, value: 0.019638}
+    - {label: unc, value: 0.002128}
+    value: 0.234913
+  - errors:
+    - {label: unc, value: 0.015854}
+    - {label: unc, value: 0.017752}
+    value: 0.182123
+  - errors:
+    - {label: unc, value: 0.013080}
+    - {label: unc, value: 0.009046}
+    value: 0.193515
+  - errors:
+    - {label: unc, value: 0.099099}
+    - {label: unc, value: 0.008032}
+    value: 0.301194
+  - errors:
+    - {label: unc, value: 0.034046}
+    - {label: unc, value: 0.018763}
+    value: 0.280823
+  - errors:
+    - {label: unc, value: 0.024711}
+    - {label: unc, value: 0.015275}
+    value: 0.366221
+  - errors:
+    - {label: unc, value: 0.021118}
+    - {label: unc, value: 0.019423}
+    value: 0.278993
+  - errors:
+    - {label: unc, value: 0.097677}
+    - {label: unc, value: 0.013345}
+    value: 0.417856
+  - errors:
+    - {label: unc, value: 0.049839}
+    - {label: unc, value: 0.073349}
+    value: 0.383419
+  - errors:
+    - {label: unc, value: 0.035432}
+    - {label: unc, value: 0.006616}
+    value: 0.520466
+  - errors:
+    - {label: unc, value: 0.150027}
+    - {label: unc, value: 0.006012}
+    value: 0.555124
+  - errors:
+    - {label: unc, value: 0.009461}
+    - {label: unc, value: 0.020839}
+    value: -0.003066
+  - errors:
+    - {label: unc, value: 0.003650}
+    - {label: unc, value: 0.008440}
+    value: -0.023919
+  - errors:
+    - {label: unc, value: 0.004521}
+    - {label: unc, value: 0.003778}
+    value: -0.001739
+  - errors:
+    - {label: unc, value: 0.004802}
+    - {label: unc, value: 0.013987}
+    value: -0.002617
+  - errors:
+    - {label: unc, value: 0.007175}
+    - {label: unc, value: 0.008211}
+    value: -0.002775
+  - errors:
+    - {label: unc, value: 0.004789}
+    - {label: unc, value: 0.005300}
+    value: 0.011016
+  - errors:
+    - {label: unc, value: 0.005962}
+    - {label: unc, value: 0.004299}
+    value: 0.051063
+  - errors:
+    - {label: unc, value: 0.011632}
+    - {label: unc, value: 0.008749}
+    value: 0.026824
+  - errors:
+    - {label: unc, value: 0.007389}
+    - {label: unc, value: 0.011714}
+    value: 0.015902
+  - errors:
+    - {label: unc, value: 0.004895}
+    - {label: unc, value: 0.010401}
+    value: 0.023443
+  - errors:
+    - {label: unc, value: 0.008904}
+    - {label: unc, value: 0.023926}
+    value: 0.084661
+  - errors:
+    - {label: unc, value: 0.026167}
+    - {label: unc, value: 0.006352}
+    value: 0.023239
+  - errors:
+    - {label: unc, value: 0.011520}
+    - {label: unc, value: 0.001524}
+    value: 0.024946
+  - errors:
+    - {label: unc, value: 0.007669}
+    - {label: unc, value: 0.002259}
+    value: 0.017953
+  - errors:
+    - {label: unc, value: 0.005362}
+    - {label: unc, value: 0.011224}
+    value: -0.005736
+  - errors:
+    - {label: unc, value: 0.015561}
+    - {label: unc, value: 0.038964}
+    value: 0.076748
+  - errors:
+    - {label: unc, value: 0.020455}
+    - {label: unc, value: 0.016625}
+    value: 0.040463
+  - errors:
+    - {label: unc, value: 0.012318}
+    - {label: unc, value: 0.022229}
+    value: 0.014689
+  - errors:
+    - {label: unc, value: 0.008061}
+    - {label: unc, value: 0.004384}
+    value: 0.050332
+  - errors:
+    - {label: unc, value: 0.006866}
+    - {label: unc, value: 0.031603}
+    value: 0.042845
+  - errors:
+    - {label: unc, value: 0.090199}
+    - {label: unc, value: 0.004333}
+    value: 0.060120
+  - errors:
+    - {label: unc, value: 0.020657}
+    - {label: unc, value: 0.002472}
+    value: 0.062873
+  - errors:
+    - {label: unc, value: 0.013740}
+    - {label: unc, value: 0.006642}
+    value: 0.050418
+  - errors:
+    - {label: unc, value: 0.008384}
+    - {label: unc, value: 0.002940}
+    value: 0.041895
+  - errors:
+    - {label: unc, value: 0.009312}
+    - {label: unc, value: 0.008635}
+    value: 0.086308
+  - errors:
+    - {label: unc, value: 0.062389}
+    - {label: unc, value: 0.020834}
+    value: 0.086192
+  - errors:
+    - {label: unc, value: 0.025732}
+    - {label: unc, value: 0.030962}
+    value: 0.110087
+  - errors:
+    - {label: unc, value: 0.012960}
+    - {label: unc, value: 0.021513}
+    value: 0.105290
+  - errors:
+    - {label: unc, value: 0.009508}
+    - {label: unc, value: 0.031230}
+    value: 0.071281
+  - errors:
+    - {label: unc, value: 0.016690}
+    - {label: unc, value: 0.094646}
+    value: 0.141199
+  - errors:
+    - {label: unc, value: 0.055933}
+    - {label: unc, value: 0.014916}
+    value: 0.149220
+  - errors:
+    - {label: unc, value: 0.020354}
+    - {label: unc, value: 0.027154}
+    value: 0.136101
+  - errors:
+    - {label: unc, value: 0.016219}
+    - {label: unc, value: 0.003432}
+    value: 0.098843
+  - errors:
+    - {label: unc, value: 0.012636}
+    - {label: unc, value: 0.043310}
+    value: 0.143219
+  - errors:
+    - {label: unc, value: 0.036441}
+    - {label: unc, value: 0.010690}
+    value: 0.217104
+  - errors:
+    - {label: unc, value: 0.024625}
+    - {label: unc, value: 0.008769}
+    value: 0.225466
+  - errors:
+    - {label: unc, value: 0.019514}
+    - {label: unc, value: 0.028229}
+    value: 0.279987
+  - errors:
+    - {label: unc, value: 0.019834}
+    - {label: unc, value: 0.049209}
+    value: 0.273188
+  - errors:
+    - {label: unc, value: 0.115651}
+    - {label: unc, value: 0.023367}
+    value: 0.310447
+  - errors:
+    - {label: unc, value: 0.043063}
+    - {label: unc, value: 0.010344}
+    value: 0.312509
+  - errors:
+    - {label: unc, value: 0.033375}
+    - {label: unc, value: 0.026017}
+    value: 0.331226
+  - errors:
+    - {label: unc, value: 0.027757}
+    - {label: unc, value: 0.048549}
+    value: 0.317433
+  - errors:
+    - {label: unc, value: 0.115532}
+    - {label: unc, value: 0.026627}
+    value: 0.471705
+  - errors:
+    - {label: unc, value: 0.065778}
+    - {label: unc, value: 0.026512}
+    value: 0.479960
+  - errors:
+    - {label: unc, value: 0.046879}
+    - {label: unc, value: 0.061101}
+    value: 0.504250
+  - errors:
+    - {label: unc, value: 0.200837}
+    - {label: unc, value: 0.028419}
+    value: 0.504946
+  - errors:
+    - {label: unc, value: 0.256858}
+    - {label: unc, value: 0.028337}
+    value: 0.790793
+  - errors:
+    - {label: unc, value: 0.013199}
+    - {label: unc, value: 0.093998}
+    value: 0.079642
+  - errors:
+    - {label: unc, value: 0.005308}
+    - {label: unc, value: 0.008625}
+    value: 0.018783
+  - errors:
+    - {label: unc, value: 0.006321}
+    - {label: unc, value: 0.004473}
+    value: 0.034398
+  - errors:
+    - {label: unc, value: 0.006716}
+    - {label: unc, value: 0.021406}
+    value: 0.037358
+  - errors:
+    - {label: unc, value: 0.009859}
+    - {label: unc, value: 0.024101}
+    value: -0.033644
+  - errors:
+    - {label: unc, value: 0.006780}
+    - {label: unc, value: 0.004115}
+    value: 0.024005
+  - errors:
+    - {label: unc, value: 0.008241}
+    - {label: unc, value: 0.027529}
+    value: 0.001756
+  - errors:
+    - {label: unc, value: 0.015461}
+    - {label: unc, value: 0.011965}
+    value: 0.012019
+  - errors:
+    - {label: unc, value: 0.010239}
+    - {label: unc, value: 0.000539}
+    value: 0.013218
+  - errors:
+    - {label: unc, value: 0.007022}
+    - {label: unc, value: 0.025684}
+    value: -0.032080
+  - errors:
+    - {label: unc, value: 0.012894}
+    - {label: unc, value: 0.028593}
+    value: -0.070895
+  - errors:
+    - {label: unc, value: 0.033364}
+    - {label: unc, value: 0.023560}
+    value: 0.030570
+  - errors:
+    - {label: unc, value: 0.014842}
+    - {label: unc, value: 0.003240}
+    value: 0.025349
+  - errors:
+    - {label: unc, value: 0.010955}
+    - {label: unc, value: 0.034339}
+    value: 0.000764
+  - errors:
+    - {label: unc, value: 0.007435}
+    - {label: unc, value: 0.018395}
+    value: -0.002103
+  - errors:
+    - {label: unc, value: 0.026373}
+    - {label: unc, value: 0.014497}
+    value: 0.029922
+  - errors:
+    - {label: unc, value: 0.016399}
+    - {label: unc, value: 0.024028}
+    value: 0.056496
+  - errors:
+    - {label: unc, value: 0.010664}
+    - {label: unc, value: 0.028333}
+    value: 0.069391
+  - errors:
+    - {label: unc, value: 0.009097}
+    - {label: unc, value: 0.005934}
+    value: 0.100411
+  - errors:
+    - {label: unc, value: 0.112397}
+    - {label: unc, value: 0.019038}
+    value: 0.063411
+  - errors:
+    - {label: unc, value: 0.026717}
+    - {label: unc, value: 0.010889}
+    value: 0.065644
+  - errors:
+    - {label: unc, value: 0.018458}
+    - {label: unc, value: 0.009069}
+    value: 0.043948
+  - errors:
+    - {label: unc, value: 0.011518}
+    - {label: unc, value: 0.001977}
+    value: 0.043464
+  - errors:
+    - {label: unc, value: 0.013390}
+    - {label: unc, value: 0.022250}
+    value: 0.099216
+  - errors:
+    - {label: unc, value: 0.080792}
+    - {label: unc, value: 0.013592}
+    value: 0.112723
+  - errors:
+    - {label: unc, value: 0.033668}
+    - {label: unc, value: 0.065425}
+    value: 0.095951
+  - errors:
+    - {label: unc, value: 0.017477}
+    - {label: unc, value: 0.014747}
+    value: 0.071019
+  - errors:
+    - {label: unc, value: 0.013568}
+    - {label: unc, value: 0.031486}
+    value: 0.147563
+  - errors:
+    - {label: unc, value: 0.071579}
+    - {label: unc, value: 0.026908}
+    value: 0.180832
+  - errors:
+    - {label: unc, value: 0.027260}
+    - {label: unc, value: 0.023001}
+    value: 0.198426
+  - errors:
+    - {label: unc, value: 0.020062}
+    - {label: unc, value: 0.002609}
+    value: 0.171343
+  - errors:
+    - {label: unc, value: 0.015691}
+    - {label: unc, value: 0.000512}
+    value: 0.163621
+  - errors:
+    - {label: unc, value: 0.044128}
+    - {label: unc, value: 0.009400}
+    value: 0.280257
+  - errors:
+    - {label: unc, value: 0.031767}
+    - {label: unc, value: 0.040320}
+    value: 0.162166
+  - errors:
+    - {label: unc, value: 0.025752}
+    - {label: unc, value: 0.020904}
+    value: 0.270635
+  - errors:
+    - {label: unc, value: 0.151356}
+    - {label: unc, value: 0.026867}
+    value: 0.395025
+  - errors:
+    - {label: unc, value: 0.051187}
+    - {label: unc, value: 0.020606}
+    value: 0.368911
+  - errors:
+    - {label: unc, value: 0.041902}
+    - {label: unc, value: 0.023237}
+    value: 0.369463
+  - errors:
+    - {label: unc, value: 0.027677}
+    - {label: unc, value: 0.061405}
+    value: 0.450432
+  - errors:
+    - {label: unc, value: 0.144514}
+    - {label: unc, value: 0.004936}
+    value: 0.411598
+  - errors:
+    - {label: unc, value: 0.082367}
+    - {label: unc, value: 0.050911}
+    value: 0.476981
+  - errors:
+    - {label: unc, value: 0.007063}
+    - {label: unc, value: 0.028978}
+    value: -0.046833
+  - errors:
+    - {label: unc, value: 0.008403}
+    - {label: unc, value: 0.009615}
+    value: 0.013446
+  - errors:
+    - {label: unc, value: 0.009759}
+    - {label: unc, value: 0.053370}
+    value: 0.000527
+  - errors:
+    - {label: unc, value: 0.012965}
+    - {label: unc, value: 0.017527}
+    value: 0.044632
+  - errors:
+    - {label: unc, value: 0.009571}
+    - {label: unc, value: 0.001326}
+    value: 0.045861
+  - errors:
+    - {label: unc, value: 0.010829}
+    - {label: unc, value: 0.004758}
+    value: 0.051756
+  - errors:
+    - {label: unc, value: 0.020154}
+    - {label: unc, value: 0.016359}
+    value: -0.006774
+  - errors:
+    - {label: unc, value: 0.013548}
+    - {label: unc, value: 0.011471}
+    value: 0.047614
+  - errors:
+    - {label: unc, value: 0.009830}
+    - {label: unc, value: 0.003294}
+    value: 0.017521
+  - errors:
+    - {label: unc, value: 0.043394}
+    - {label: unc, value: 0.014452}
+    value: 0.044869
+  - errors:
+    - {label: unc, value: 0.019615}
+    - {label: unc, value: 0.012104}
+    value: 0.028155
+  - errors:
+    - {label: unc, value: 0.014650}
+    - {label: unc, value: 0.021055}
+    value: 0.088769
+  - errors:
+    - {label: unc, value: 0.010838}
+    - {label: unc, value: 0.011973}
+    value: 0.107246
+  - errors:
+    - {label: unc, value: 0.033729}
+    - {label: unc, value: 0.000099}
+    value: 0.026327
+  - errors:
+    - {label: unc, value: 0.022265}
+    - {label: unc, value: 0.014023}
+    value: 0.039483
+  - errors:
+    - {label: unc, value: 0.014869}
+    - {label: unc, value: 0.000074}
+    value: 0.043176
+  - errors:
+    - {label: unc, value: 0.013884}
+    - {label: unc, value: 0.053210}
+    value: -0.039318
+  - errors:
+    - {label: unc, value: 0.143090}
+    - {label: unc, value: 0.040106}
+    value: 0.066140
+  - errors:
+    - {label: unc, value: 0.034852}
+    - {label: unc, value: 0.030297}
+    value: 0.087519
+  - errors:
+    - {label: unc, value: 0.026229}
+    - {label: unc, value: 0.024913}
+    value: 0.038332
+  - errors:
+    - {label: unc, value: 0.015224}
+    - {label: unc, value: 0.001819}
+    value: 0.015290
+  - errors:
+    - {label: unc, value: 0.106671}
+    - {label: unc, value: 0.038291}
+    value: 0.106823
+  - errors:
+    - {label: unc, value: 0.045456}
+    - {label: unc, value: 0.019355}
+    value: 0.086932
+  - errors:
+    - {label: unc, value: 0.022918}
+    - {label: unc, value: 0.022675}
+    value: 0.144465
+  - errors:
+    - {label: unc, value: 0.017573}
+    - {label: unc, value: 0.027830}
+    value: 0.215176
+  - errors:
+    - {label: unc, value: 0.088357}
+    - {label: unc, value: 0.010648}
+    value: 0.220160
+  - errors:
+    - {label: unc, value: 0.034873}
+    - {label: unc, value: 0.019789}
+    value: 0.172321
+  - errors:
+    - {label: unc, value: 0.026640}
+    - {label: unc, value: 0.015692}
+    value: 0.208892
+  - errors:
+    - {label: unc, value: 0.021517}
+    - {label: unc, value: 0.032344}
+    value: 0.302405
+  - errors:
+    - {label: unc, value: 0.055302}
+    - {label: unc, value: 0.024366}
+    value: 0.265560
+  - errors:
+    - {label: unc, value: 0.044249}
+    - {label: unc, value: 0.041316}
+    value: 0.098292
+  - errors:
+    - {label: unc, value: 0.036629}
+    - {label: unc, value: 0.000817}
+    value: 0.094035
+  - errors:
+    - {label: unc, value: 0.169741}
+    - {label: unc, value: 0.004765}
+    value: 0.383881
+  - errors:
+    - {label: unc, value: 0.059277}
+    - {label: unc, value: 0.045558}
+    value: 0.469893
+  - errors:
+    - {label: unc, value: 0.054001}
+    - {label: unc, value: 0.125222}
+    value: 0.147248
+  - errors:
+    - {label: unc, value: 0.148886}
+    - {label: unc, value: 0.013432}
+    value: 0.554204
+  - errors:
+    - {label: unc, value: 0.085746}
+    - {label: unc, value: 0.000691}
+    value: 0.472648
+  - errors:
+    - {label: unc, value: 0.010095}
+    - {label: unc, value: 0.025175}
+    value: 0.017297
+  - errors:
+    - {label: unc, value: 0.011899}
+    - {label: unc, value: 0.005826}
+    value: 0.016753
+  - errors:
+    - {label: unc, value: 0.013736}
+    - {label: unc, value: 0.093793}
+    value: 0.005868
+  - errors:
+    - {label: unc, value: 0.017367}
+    - {label: unc, value: 0.005054}
+    value: 0.002583
+  - errors:
+    - {label: unc, value: 0.013478}
+    - {label: unc, value: 0.000705}
+    value: 0.030928
+  - errors:
+    - {label: unc, value: 0.016622}
+    - {label: unc, value: 0.029625}
+    value: 0.133761
+  - errors:
+    - {label: unc, value: 0.027236}
+    - {label: unc, value: 0.015379}
+    value: 0.059384
+  - errors:
+    - {label: unc, value: 0.018173}
+    - {label: unc, value: 0.012450}
+    value: 0.041973
+  - errors:
+    - {label: unc, value: 0.014435}
+    - {label: unc, value: 0.038577}
+    value: -0.041935
+  - errors:
+    - {label: unc, value: 0.055534}
+    - {label: unc, value: 0.018030}
+    value: 0.033602
+  - errors:
+    - {label: unc, value: 0.027391}
+    - {label: unc, value: 0.038837}
+    value: 0.013086
+  - errors:
+    - {label: unc, value: 0.022701}
+    - {label: unc, value: 0.007179}
+    value: 0.015213
+  - errors:
+    - {label: unc, value: 0.015214}
+    - {label: unc, value: 0.024855}
+    value: -0.050456
+  - errors:
+    - {label: unc, value: 0.044605}
+    - {label: unc, value: 0.017896}
+    value: 0.045129
+  - errors:
+    - {label: unc, value: 0.032929}
+    - {label: unc, value: 0.016364}
+    value: 0.098252
+  - errors:
+    - {label: unc, value: 0.021652}
+    - {label: unc, value: 0.011334}
+    value: 0.068254
+  - errors:
+    - {label: unc, value: 0.018863}
+    - {label: unc, value: 0.022039}
+    value: 0.051729
+  - errors:
+    - {label: unc, value: 0.186610}
+    - {label: unc, value: 0.071016}
+    value: 0.104181
+  - errors:
+    - {label: unc, value: 0.050377}
+    - {label: unc, value: 0.010079}
+    value: 0.074990
+  - errors:
+    - {label: unc, value: 0.036915}
+    - {label: unc, value: 0.031539}
+    value: 0.101774
+  - errors:
+    - {label: unc, value: 0.020540}
+    - {label: unc, value: 0.037634}
+    value: 0.194175
+  - errors:
+    - {label: unc, value: 0.134687}
+    - {label: unc, value: 0.031236}
+    value: 0.121495
+  - errors:
+    - {label: unc, value: 0.062975}
+    - {label: unc, value: 0.020855}
+    value: 0.136224
+  - errors:
+    - {label: unc, value: 0.030832}
+    - {label: unc, value: 0.007317}
+    value: 0.195615
+  - errors:
+    - {label: unc, value: 0.023112}
+    - {label: unc, value: 0.016723}
+    value: 0.249244
+  - errors:
+    - {label: unc, value: 0.121311}
+    - {label: unc, value: 0.042490}
+    value: 0.137945
+  - errors:
+    - {label: unc, value: 0.048239}
+    - {label: unc, value: 0.046666}
+    value: 0.269696
+  - errors:
+    - {label: unc, value: 0.034726}
+    - {label: unc, value: 0.072616}
+    value: 0.420226
+  - errors:
+    - {label: unc, value: 0.076456}
+    - {label: unc, value: 0.058666}
+    value: 0.286947
+  - errors:
+    - {label: unc, value: 0.054325}
+    - {label: unc, value: 0.070320}
+    value: 0.284716
+  - errors:
+    - {label: unc, value: 0.226279}
+    - {label: unc, value: 0.071771}
+    value: 0.396916
+  - errors:
+    - {label: unc, value: 0.074866}
+    - {label: unc, value: 0.019132}
+    value: 0.495777
+  - errors:
+    - {label: unc, value: 0.182394}
+    - {label: unc, value: 0.012605}
+    value: 0.534822
+  - errors:
+    - {label: unc, value: 0.017901}
+    - {label: unc, value: 0.081590}
+    value: 0.007174
+  - errors:
+    - {label: unc, value: 0.018768}
+    - {label: unc, value: 0.091993}
+    value: 0.103933
+  - errors:
+    - {label: unc, value: 0.030359}
+    - {label: unc, value: 0.032422}
+    value: 0.021170
+  - errors:
+    - {label: unc, value: 0.024195}
+    - {label: unc, value: 0.021658}
+    value: -0.015026
+  - errors:
+    - {label: unc, value: 0.045064}
+    - {label: unc, value: 0.028414}
+    value: -0.017056
+  - errors:
+    - {label: unc, value: 0.032092}
+    - {label: unc, value: 0.031805}
+    value: 0.056821
+  - errors:
+    - {label: unc, value: 0.024943}
+    - {label: unc, value: 0.121698}
+    value: 0.020528
+  - errors:
+    - {label: unc, value: 0.079766}
+    - {label: unc, value: 0.003785}
+    value: 0.016627
+  - errors:
+    - {label: unc, value: 0.045352}
+    - {label: unc, value: 0.037941}
+    value: 0.010924
+  - errors:
+    - {label: unc, value: 0.040391}
+    - {label: unc, value: 0.156585}
+    value: -0.119229
+  - errors:
+    - {label: unc, value: 0.073112}
+    - {label: unc, value: 0.065215}
+    value: 0.073141
+  - errors:
+    - {label: unc, value: 0.053774}
+    - {label: unc, value: 0.054430}
+    value: -0.004666
+  - errors:
+    - {label: unc, value: 0.237365}
+    - {label: unc, value: 0.014184}
+    value: -0.002866
+  - errors:
+    - {label: unc, value: 0.082615}
+    - {label: unc, value: 0.029621}
+    value: 0.074965
+  - errors:
+    - {label: unc, value: 0.201685}
+    - {label: unc, value: 0.018014}
+    value: 0.066281
+  - errors:
+    - {label: unc, value: 0.101617}
+    - {label: unc, value: 0.106475}
+    value: 0.072876
+  - errors:
+    - {label: unc, value: 0.048356}
+    - {label: unc, value: 0.042271}
+    value: 0.245585
+  - errors:
+    - {label: unc, value: 0.164301}
+    - {label: unc, value: 0.038429}
+    value: 0.126376
+  - errors:
+    - {label: unc, value: 0.132493}
+    - {label: unc, value: 0.023793}
+    value: 0.123587
+  - errors:
+    - {label: unc, value: 0.172823}
+    - {label: unc, value: 0.073073}
+    value: 0.578416
+independent_variables:
+- header: {name: "z"}
+  values:
+    - {high: 0.05, low: 0.01, value: 0.027168}
+    - {high: 0.05, low: 0.01, value: 0.026910}
+    - {high: 0.05, low: 0.01, value: 0.027262}
+    - {high: 0.05, low: 0.01, value: 0.027295}
+    - {high: 0.05, low: 0.01, value: 0.027087}
+    - {high: 0.05, low: 0.01, value: 0.029786}
+    - {high: 0.05, low: 0.01, value: 0.026855}
+    - {high: 0.05, low: 0.01, value: 0.026853}
+    - {high: 0.05, low: 0.01, value: 0.033794}
+    - {high: 0.05, low: 0.01, value: 0.028650}
+    - {high: 0.05, low: 0.01, value: 0.026723}
+    - {high: 0.05, low: 0.01, value: 0.026691}
+    - {high: 0.05, low: 0.01, value: 0.038266}
+    - {high: 0.05, low: 0.01, value: 0.032363}
+    - {high: 0.05, low: 0.01, value: 0.027972}
+    - {high: 0.05, low: 0.01, value: 0.026687}
+    - {high: 0.05, low: 0.01, value: 0.026859}
+    - {high: 0.05, low: 0.01, value: 0.036962}
+    - {high: 0.05, low: 0.01, value: 0.031274}
+    - {high: 0.05, low: 0.01, value: 0.027425}
+    - {high: 0.05, low: 0.01, value: 0.026608}
+    - {high: 0.05, low: 0.01, value: 0.027431}
+    - {high: 0.05, low: 0.01, value: 0.041199}
+    - {high: 0.05, low: 0.01, value: 0.035792}
+    - {high: 0.05, low: 0.01, value: 0.030418}
+    - {high: 0.05, low: 0.01, value: 0.027126}
+    - {high: 0.05, low: 0.01, value: 0.026998}
+    - {high: 0.05, low: 0.01, value: 0.040294}
+    - {high: 0.05, low: 0.01, value: 0.034706}
+    - {high: 0.05, low: 0.01, value: 0.029532}
+    - {high: 0.05, low: 0.01, value: 0.027046}
+    - {high: 0.05, low: 0.01, value: 0.026844}
+    - {high: 0.05, low: 0.01, value: 0.039141}
+    - {high: 0.05, low: 0.01, value: 0.033716}
+    - {high: 0.05, low: 0.01, value: 0.028980}
+    - {high: 0.05, low: 0.01, value: 0.027265}
+    - {high: 0.05, low: 0.01, value: 0.027147}
+    - {high: 0.05, low: 0.01, value: 0.042676}
+    - {high: 0.05, low: 0.01, value: 0.038350}
+    - {high: 0.05, low: 0.01, value: 0.032857}
+    - {high: 0.05, low: 0.01, value: 0.028512}
+    - {high: 0.05, low: 0.01, value: 0.027584}
+    - {high: 0.05, low: 0.01, value: 0.042059}
+    - {high: 0.05, low: 0.01, value: 0.037309}
+    - {high: 0.05, low: 0.01, value: 0.031970}
+    - {high: 0.05, low: 0.01, value: 0.027879}
+    - {high: 0.05, low: 0.01, value: 0.041283}
+    - {high: 0.05, low: 0.01, value: 0.036257}
+    - {high: 0.05, low: 0.01, value: 0.031014}
+    - {high: 0.05, low: 0.01, value: 0.034117}
+    - {high: 0.10, low: 0.05, value: 0.071858}
+    - {high: 0.10, low: 0.05, value: 0.072178}
+    - {high: 0.10, low: 0.05, value: 0.072512}
+    - {high: 0.10, low: 0.05, value: 0.072939}
+    - {high: 0.10, low: 0.05, value: 0.072064}
+    - {high: 0.10, low: 0.05, value: 0.072982}
+    - {high: 0.10, low: 0.05, value: 0.072548}
+    - {high: 0.10, low: 0.05, value: 0.072121}
+    - {high: 0.10, low: 0.05, value: 0.072369}
+    - {high: 0.10, low: 0.05, value: 0.073148}
+    - {high: 0.10, low: 0.05, value: 0.072457}
+    - {high: 0.10, low: 0.05, value: 0.072176}
+    - {high: 0.10, low: 0.05, value: 0.073451}
+    - {high: 0.10, low: 0.05, value: 0.072428}
+    - {high: 0.10, low: 0.05, value: 0.073000}
+    - {high: 0.10, low: 0.05, value: 0.072601}
+    - {high: 0.10, low: 0.05, value: 0.071651}
+    - {high: 0.10, low: 0.05, value: 0.073061}
+    - {high: 0.10, low: 0.05, value: 0.072360}
+    - {high: 0.10, low: 0.05, value: 0.073302}
+    - {high: 0.10, low: 0.05, value: 0.072295}
+    - {high: 0.10, low: 0.05, value: 0.070706}
+    - {high: 0.10, low: 0.05, value: 0.075308}
+    - {high: 0.10, low: 0.05, value: 0.072611}
+    - {high: 0.10, low: 0.05, value: 0.072848}
+    - {high: 0.10, low: 0.05, value: 0.073268}
+    - {high: 0.10, low: 0.05, value: 0.072377}
+    - {high: 0.10, low: 0.05, value: 0.074445}
+    - {high: 0.10, low: 0.05, value: 0.072525}
+    - {high: 0.10, low: 0.05, value: 0.073229}
+    - {high: 0.10, low: 0.05, value: 0.073336}
+    - {high: 0.10, low: 0.05, value: 0.072773}
+    - {high: 0.10, low: 0.05, value: 0.073747}
+    - {high: 0.10, low: 0.05, value: 0.072572}
+    - {high: 0.10, low: 0.05, value: 0.073478}
+    - {high: 0.10, low: 0.05, value: 0.073405}
+    - {high: 0.10, low: 0.05, value: 0.072887}
+    - {high: 0.10, low: 0.05, value: 0.077190}
+    - {high: 0.10, low: 0.05, value: 0.073654}
+    - {high: 0.10, low: 0.05, value: 0.072838}
+    - {high: 0.10, low: 0.05, value: 0.073328}
+    - {high: 0.10, low: 0.05, value: 0.072612}
+    - {high: 0.10, low: 0.05, value: 0.076180}
+    - {high: 0.10, low: 0.05, value: 0.073465}
+    - {high: 0.10, low: 0.05, value: 0.073753}
+    - {high: 0.10, low: 0.05, value: 0.073284}
+    - {high: 0.10, low: 0.05, value: 0.075741}
+    - {high: 0.10, low: 0.05, value: 0.073109}
+    - {high: 0.10, low: 0.05, value: 0.074979}
+    - {high: 0.10, low: 0.05, value: 0.075852}
+    - {high: 0.10, low: 0.05, value: 0.074113}
+    - {high: 0.15, low: 0.10, value: 0.122711}
+    - {high: 0.15, low: 0.10, value: 0.122690}
+    - {high: 0.15, low: 0.10, value: 0.124203}
+    - {high: 0.15, low: 0.10, value: 0.123054}
+    - {high: 0.15, low: 0.10, value: 0.122833}
+    - {high: 0.15, low: 0.10, value: 0.123300}
+    - {high: 0.15, low: 0.10, value: 0.122811}
+    - {high: 0.15, low: 0.10, value: 0.123068}
+    - {high: 0.15, low: 0.10, value: 0.123614}
+    - {high: 0.15, low: 0.10, value: 0.123236}
+    - {high: 0.15, low: 0.10, value: 0.122973}
+    - {high: 0.15, low: 0.10, value: 0.123453}
+    - {high: 0.15, low: 0.10, value: 0.123002}
+    - {high: 0.15, low: 0.10, value: 0.123930}
+    - {high: 0.15, low: 0.10, value: 0.123038}
+    - {high: 0.15, low: 0.10, value: 0.123129}
+    - {high: 0.15, low: 0.10, value: 0.123513}
+    - {high: 0.15, low: 0.10, value: 0.123421}
+    - {high: 0.15, low: 0.10, value: 0.123752}
+    - {high: 0.15, low: 0.10, value: 0.123037}
+    - {high: 0.15, low: 0.10, value: 0.123382}
+    - {high: 0.15, low: 0.10, value: 0.123293}
+    - {high: 0.15, low: 0.10, value: 0.123352}
+    - {high: 0.15, low: 0.10, value: 0.123551}
+    - {high: 0.15, low: 0.10, value: 0.123468}
+    - {high: 0.15, low: 0.10, value: 0.123018}
+    - {high: 0.15, low: 0.10, value: 0.123445}
+    - {high: 0.15, low: 0.10, value: 0.123976}
+    - {high: 0.15, low: 0.10, value: 0.123708}
+    - {high: 0.15, low: 0.10, value: 0.123535}
+    - {high: 0.15, low: 0.10, value: 0.123692}
+    - {high: 0.15, low: 0.10, value: 0.123691}
+    - {high: 0.15, low: 0.10, value: 0.124088}
+    - {high: 0.15, low: 0.10, value: 0.123687}
+    - {high: 0.15, low: 0.10, value: 0.123893}
+    - {high: 0.15, low: 0.10, value: 0.124597}
+    - {high: 0.15, low: 0.10, value: 0.123770}
+    - {high: 0.15, low: 0.10, value: 0.123575}
+    - {high: 0.15, low: 0.10, value: 0.123875}
+    - {high: 0.15, low: 0.10, value: 0.123583}
+    - {high: 0.15, low: 0.10, value: 0.123575}
+    - {high: 0.15, low: 0.10, value: 0.124119}
+    - {high: 0.15, low: 0.10, value: 0.124076}
+    - {high: 0.15, low: 0.10, value: 0.124137}
+    - {high: 0.15, low: 0.10, value: 0.124183}
+    - {high: 0.15, low: 0.10, value: 0.123450}
+    - {high: 0.15, low: 0.10, value: 0.123989}
+    - {high: 0.15, low: 0.10, value: 0.123684}
+    - {high: 0.15, low: 0.10, value: 0.124357}
+    - {high: 0.15, low: 0.10, value: 0.124674}
+    - {high: 0.20, low: 0.15, value: 0.173111}
+    - {high: 0.20, low: 0.15, value: 0.173403}
+    - {high: 0.20, low: 0.15, value: 0.174775}
+    - {high: 0.20, low: 0.15, value: 0.173228}
+    - {high: 0.20, low: 0.15, value: 0.173360}
+    - {high: 0.20, low: 0.15, value: 0.173391}
+    - {high: 0.20, low: 0.15, value: 0.173234}
+    - {high: 0.20, low: 0.15, value: 0.173833}
+    - {high: 0.20, low: 0.15, value: 0.173703}
+    - {high: 0.20, low: 0.15, value: 0.173197}
+    - {high: 0.20, low: 0.15, value: 0.173427}
+    - {high: 0.20, low: 0.15, value: 0.173974}
+    - {high: 0.20, low: 0.15, value: 0.173853}
+    - {high: 0.20, low: 0.15, value: 0.173869}
+    - {high: 0.20, low: 0.15, value: 0.173286}
+    - {high: 0.20, low: 0.15, value: 0.173747}
+    - {high: 0.20, low: 0.15, value: 0.173569}
+    - {high: 0.20, low: 0.15, value: 0.173988}
+    - {high: 0.20, low: 0.15, value: 0.173646}
+    - {high: 0.20, low: 0.15, value: 0.173412}
+    - {high: 0.20, low: 0.15, value: 0.173573}
+    - {high: 0.20, low: 0.15, value: 0.173495}
+    - {high: 0.20, low: 0.15, value: 0.173731}
+    - {high: 0.20, low: 0.15, value: 0.173268}
+    - {high: 0.20, low: 0.15, value: 0.173897}
+    - {high: 0.20, low: 0.15, value: 0.173558}
+    - {high: 0.20, low: 0.15, value: 0.173853}
+    - {high: 0.20, low: 0.15, value: 0.173775}
+    - {high: 0.20, low: 0.15, value: 0.173494}
+    - {high: 0.20, low: 0.15, value: 0.173694}
+    - {high: 0.20, low: 0.15, value: 0.173812}
+    - {high: 0.20, low: 0.15, value: 0.174158}
+    - {high: 0.20, low: 0.15, value: 0.173912}
+    - {high: 0.20, low: 0.15, value: 0.173878}
+    - {high: 0.20, low: 0.15, value: 0.173171}
+    - {high: 0.20, low: 0.15, value: 0.173495}
+    - {high: 0.20, low: 0.15, value: 0.174021}
+    - {high: 0.20, low: 0.15, value: 0.174186}
+    - {high: 0.20, low: 0.15, value: 0.173675}
+    - {high: 0.20, low: 0.15, value: 0.173865}
+    - {high: 0.20, low: 0.15, value: 0.173401}
+    - {high: 0.20, low: 0.15, value: 0.174103}
+    - {high: 0.20, low: 0.15, value: 0.174214}
+    - {high: 0.20, low: 0.15, value: 0.173450}
+    - {high: 0.20, low: 0.15, value: 0.173748}
+    - {high: 0.20, low: 0.15, value: 0.174481}
+    - {high: 0.20, low: 0.15, value: 0.174179}
+    - {high: 0.20, low: 0.15, value: 0.172843}
+    - {high: 0.20, low: 0.15, value: 0.173543}
+    - {high: 0.20, low: 0.15, value: 0.171817}
+    - {high: 0.25, low: 0.20, value: 0.223443}
+    - {high: 0.25, low: 0.20, value: 0.223744}
+    - {high: 0.25, low: 0.20, value: 0.223305}
+    - {high: 0.25, low: 0.20, value: 0.223295}
+    - {high: 0.25, low: 0.20, value: 0.223535}
+    - {high: 0.25, low: 0.20, value: 0.223409}
+    - {high: 0.25, low: 0.20, value: 0.223570}
+    - {high: 0.25, low: 0.20, value: 0.224307}
+    - {high: 0.25, low: 0.20, value: 0.223739}
+    - {high: 0.25, low: 0.20, value: 0.223621}
+    - {high: 0.25, low: 0.20, value: 0.223649}
+    - {high: 0.25, low: 0.20, value: 0.223728}
+    - {high: 0.25, low: 0.20, value: 0.224098}
+    - {high: 0.25, low: 0.20, value: 0.223683}
+    - {high: 0.25, low: 0.20, value: 0.223558}
+    - {high: 0.25, low: 0.20, value: 0.223516}
+    - {high: 0.25, low: 0.20, value: 0.222678}
+    - {high: 0.25, low: 0.20, value: 0.223993}
+    - {high: 0.25, low: 0.20, value: 0.223596}
+    - {high: 0.25, low: 0.20, value: 0.223733}
+    - {high: 0.25, low: 0.20, value: 0.223829}
+    - {high: 0.25, low: 0.20, value: 0.223830}
+    - {high: 0.25, low: 0.20, value: 0.223871}
+    - {high: 0.25, low: 0.20, value: 0.223592}
+    - {high: 0.25, low: 0.20, value: 0.223759}
+    - {high: 0.25, low: 0.20, value: 0.223761}
+    - {high: 0.25, low: 0.20, value: 0.223942}
+    - {high: 0.25, low: 0.20, value: 0.223724}
+    - {high: 0.25, low: 0.20, value: 0.223560}
+    - {high: 0.25, low: 0.20, value: 0.224190}
+    - {high: 0.25, low: 0.20, value: 0.223293}
+    - {high: 0.25, low: 0.20, value: 0.224105}
+    - {high: 0.25, low: 0.20, value: 0.223920}
+    - {high: 0.25, low: 0.20, value: 0.224316}
+    - {high: 0.25, low: 0.20, value: 0.223311}
+    - {high: 0.25, low: 0.20, value: 0.225072}
+    - {high: 0.25, low: 0.20, value: 0.224047}
+    - {high: 0.25, low: 0.20, value: 0.224006}
+    - {high: 0.25, low: 0.20, value: 0.223309}
+    - {high: 0.25, low: 0.20, value: 0.223740}
+    - {high: 0.25, low: 0.20, value: 0.223833}
+    - {high: 0.25, low: 0.20, value: 0.223941}
+    - {high: 0.25, low: 0.20, value: 0.224173}
+    - {high: 0.25, low: 0.20, value: 0.224194}
+    - {high: 0.25, low: 0.20, value: 0.223918}
+    - {high: 0.25, low: 0.20, value: 0.224309}
+    - {high: 0.25, low: 0.20, value: 0.223223}
+    - {high: 0.25, low: 0.20, value: 0.224266}
+    - {high: 0.25, low: 0.20, value: 0.224321}
+    - {high: 0.25, low: 0.20, value: 0.224680}
+    - {high: 0.30, low: 0.25, value: 0.274025}
+    - {high: 0.30, low: 0.25, value: 0.273664}
+    - {high: 0.30, low: 0.25, value: 0.273255}
+    - {high: 0.30, low: 0.25, value: 0.273727}
+    - {high: 0.30, low: 0.25, value: 0.272782}
+    - {high: 0.30, low: 0.25, value: 0.273755}
+    - {high: 0.30, low: 0.25, value: 0.273755}
+    - {high: 0.30, low: 0.25, value: 0.273420}
+    - {high: 0.30, low: 0.25, value: 0.273808}
+    - {high: 0.30, low: 0.25, value: 0.273733}
+    - {high: 0.30, low: 0.25, value: 0.273730}
+    - {high: 0.30, low: 0.25, value: 0.273000}
+    - {high: 0.30, low: 0.25, value: 0.274013}
+    - {high: 0.30, low: 0.25, value: 0.273868}
+    - {high: 0.30, low: 0.25, value: 0.273557}
+    - {high: 0.30, low: 0.25, value: 0.273783}
+    - {high: 0.30, low: 0.25, value: 0.273672}
+    - {high: 0.30, low: 0.25, value: 0.274026}
+    - {high: 0.30, low: 0.25, value: 0.273878}
+    - {high: 0.30, low: 0.25, value: 0.273739}
+    - {high: 0.30, low: 0.25, value: 0.274090}
+    - {high: 0.30, low: 0.25, value: 0.274193}
+    - {high: 0.30, low: 0.25, value: 0.273876}
+    - {high: 0.30, low: 0.25, value: 0.273979}
+    - {high: 0.30, low: 0.25, value: 0.273578}
+    - {high: 0.30, low: 0.25, value: 0.273452}
+    - {high: 0.30, low: 0.25, value: 0.273985}
+    - {high: 0.30, low: 0.25, value: 0.273908}
+    - {high: 0.30, low: 0.25, value: 0.273663}
+    - {high: 0.30, low: 0.25, value: 0.274128}
+    - {high: 0.30, low: 0.25, value: 0.273331}
+    - {high: 0.30, low: 0.25, value: 0.274027}
+    - {high: 0.30, low: 0.25, value: 0.273766}
+    - {high: 0.30, low: 0.25, value: 0.273806}
+    - {high: 0.30, low: 0.25, value: 0.272673}
+    - {high: 0.30, low: 0.25, value: 0.273701}
+    - {high: 0.30, low: 0.25, value: 0.274247}
+    - {high: 0.30, low: 0.25, value: 0.273612}
+    - {high: 0.30, low: 0.25, value: 0.273225}
+    - {high: 0.30, low: 0.25, value: 0.272140}
+    - {high: 0.30, low: 0.25, value: 0.274646}
+    - {high: 0.30, low: 0.25, value: 0.274344}
+    - {high: 0.30, low: 0.25, value: 0.273647}
+    - {high: 0.30, low: 0.25, value: 0.274424}
+    - {high: 0.30, low: 0.25, value: 0.274819}
+    - {high: 0.30, low: 0.25, value: 0.274411}
+    - {high: 0.30, low: 0.25, value: 0.274725}
+    - {high: 0.30, low: 0.25, value: 0.275113}
+    - {high: 0.40, low: 0.30, value: 0.345477}
+    - {high: 0.40, low: 0.30, value: 0.346203}
+    - {high: 0.40, low: 0.30, value: 0.344794}
+    - {high: 0.40, low: 0.30, value: 0.346484}
+    - {high: 0.40, low: 0.30, value: 0.345682}
+    - {high: 0.40, low: 0.30, value: 0.346353}
+    - {high: 0.40, low: 0.30, value: 0.346430}
+    - {high: 0.40, low: 0.30, value: 0.345730}
+    - {high: 0.40, low: 0.30, value: 0.346551}
+    - {high: 0.40, low: 0.30, value: 0.346728}
+    - {high: 0.40, low: 0.30, value: 0.344943}
+    - {high: 0.40, low: 0.30, value: 0.343356}
+    - {high: 0.40, low: 0.30, value: 0.346471}
+    - {high: 0.40, low: 0.30, value: 0.346423}
+    - {high: 0.40, low: 0.30, value: 0.345562}
+    - {high: 0.40, low: 0.30, value: 0.345051}
+    - {high: 0.40, low: 0.30, value: 0.343366}
+    - {high: 0.40, low: 0.30, value: 0.346216}
+    - {high: 0.40, low: 0.30, value: 0.345655}
+    - {high: 0.40, low: 0.30, value: 0.345677}
+    - {high: 0.40, low: 0.30, value: 0.345004}
+    - {high: 0.40, low: 0.30, value: 0.346887}
+    - {high: 0.40, low: 0.30, value: 0.345691}
+    - {high: 0.40, low: 0.30, value: 0.345501}
+    - {high: 0.40, low: 0.30, value: 0.345704}
+    - {high: 0.40, low: 0.30, value: 0.344868}
+    - {high: 0.40, low: 0.30, value: 0.346441}
+    - {high: 0.40, low: 0.30, value: 0.344771}
+    - {high: 0.40, low: 0.30, value: 0.345832}
+    - {high: 0.40, low: 0.30, value: 0.344666}
+    - {high: 0.40, low: 0.30, value: 0.347284}
+    - {high: 0.40, low: 0.30, value: 0.345396}
+    - {high: 0.40, low: 0.30, value: 0.346013}
+    - {high: 0.40, low: 0.30, value: 0.345519}
+    - {high: 0.40, low: 0.30, value: 0.344411}
+    - {high: 0.40, low: 0.30, value: 0.345193}
+    - {high: 0.40, low: 0.30, value: 0.346591}
+    - {high: 0.40, low: 0.30, value: 0.346039}
+    - {high: 0.40, low: 0.30, value: 0.346447}
+    - {high: 0.40, low: 0.30, value: 0.345431}
+    - {high: 0.40, low: 0.30, value: 0.346509}
+    - {high: 0.40, low: 0.30, value: 0.347874}
+    - {high: 0.40, low: 0.30, value: 0.345719}
+    - {high: 0.40, low: 0.30, value: 0.345627}
+    - {high: 0.40, low: 0.30, value: 0.344168}
+    - {high: 0.40, low: 0.30, value: 0.346570}
+    - {high: 0.40, low: 0.30, value: 0.345218}
+    - {high: 0.40, low: 0.30, value: 0.346058}
+    - {high: 0.40, low: 0.30, value: 0.345920}
+    - {high: 0.50, low: 0.40, value: 0.444017}
+    - {high: 0.50, low: 0.40, value: 0.446277}
+    - {high: 0.50, low: 0.40, value: 0.446276}
+    - {high: 0.50, low: 0.40, value: 0.445569}
+    - {high: 0.50, low: 0.40, value: 0.446634}
+    - {high: 0.50, low: 0.40, value: 0.446149}
+    - {high: 0.50, low: 0.40, value: 0.446487}
+    - {high: 0.50, low: 0.40, value: 0.446358}
+    - {high: 0.50, low: 0.40, value: 0.446510}
+    - {high: 0.50, low: 0.40, value: 0.445866}
+    - {high: 0.50, low: 0.40, value: 0.445863}
+    - {high: 0.50, low: 0.40, value: 0.446933}
+    - {high: 0.50, low: 0.40, value: 0.446435}
+    - {high: 0.50, low: 0.40, value: 0.445756}
+    - {high: 0.50, low: 0.40, value: 0.445337}
+    - {high: 0.50, low: 0.40, value: 0.442459}
+    - {high: 0.50, low: 0.40, value: 0.446734}
+    - {high: 0.50, low: 0.40, value: 0.445472}
+    - {high: 0.50, low: 0.40, value: 0.444804}
+    - {high: 0.50, low: 0.40, value: 0.446054}
+    - {high: 0.50, low: 0.40, value: 0.446308}
+    - {high: 0.50, low: 0.40, value: 0.446033}
+    - {high: 0.50, low: 0.40, value: 0.444700}
+    - {high: 0.50, low: 0.40, value: 0.445215}
+    - {high: 0.50, low: 0.40, value: 0.445578}
+    - {high: 0.50, low: 0.40, value: 0.446021}
+    - {high: 0.50, low: 0.40, value: 0.445718}
+    - {high: 0.50, low: 0.40, value: 0.445880}
+    - {high: 0.50, low: 0.40, value: 0.445962}
+    - {high: 0.50, low: 0.40, value: 0.445596}
+    - {high: 0.50, low: 0.40, value: 0.445354}
+    - {high: 0.50, low: 0.40, value: 0.445683}
+    - {high: 0.50, low: 0.40, value: 0.446001}
+    - {high: 0.50, low: 0.40, value: 0.445666}
+    - {high: 0.50, low: 0.40, value: 0.445760}
+    - {high: 0.50, low: 0.40, value: 0.444862}
+    - {high: 0.50, low: 0.40, value: 0.443872}
+    - {high: 0.50, low: 0.40, value: 0.447181}
+    - {high: 0.50, low: 0.40, value: 0.447256}
+    - {high: 0.50, low: 0.40, value: 0.447430}
+    - {high: 0.50, low: 0.40, value: 0.445080}
+    - {high: 0.50, low: 0.40, value: 0.444481}
+    - {high: 0.50, low: 0.40, value: 0.446420}
+    - {high: 0.50, low: 0.40, value: 0.444575}
+    - {high: 0.50, low: 0.40, value: 0.450294}
+    - {high: 0.50, low: 0.40, value: 0.450393}
+    - {high: 0.60, low: 0.50, value: 0.545646}
+    - {high: 0.60, low: 0.50, value: 0.546149}
+    - {high: 0.60, low: 0.50, value: 0.546491}
+    - {high: 0.60, low: 0.50, value: 0.545572}
+    - {high: 0.60, low: 0.50, value: 0.546619}
+    - {high: 0.60, low: 0.50, value: 0.544983}
+    - {high: 0.60, low: 0.50, value: 0.546780}
+    - {high: 0.60, low: 0.50, value: 0.546315}
+    - {high: 0.60, low: 0.50, value: 0.546684}
+    - {high: 0.60, low: 0.50, value: 0.544426}
+    - {high: 0.60, low: 0.50, value: 0.547176}
+    - {high: 0.60, low: 0.50, value: 0.546073}
+    - {high: 0.60, low: 0.50, value: 0.546292}
+    - {high: 0.60, low: 0.50, value: 0.545742}
+    - {high: 0.60, low: 0.50, value: 0.544361}
+    - {high: 0.60, low: 0.50, value: 0.540906}
+    - {high: 0.60, low: 0.50, value: 0.546171}
+    - {high: 0.60, low: 0.50, value: 0.546241}
+    - {high: 0.60, low: 0.50, value: 0.545505}
+    - {high: 0.60, low: 0.50, value: 0.545914}
+    - {high: 0.60, low: 0.50, value: 0.545650}
+    - {high: 0.60, low: 0.50, value: 0.546318}
+    - {high: 0.60, low: 0.50, value: 0.544507}
+    - {high: 0.60, low: 0.50, value: 0.545663}
+    - {high: 0.60, low: 0.50, value: 0.545947}
+    - {high: 0.60, low: 0.50, value: 0.545515}
+    - {high: 0.60, low: 0.50, value: 0.545419}
+    - {high: 0.60, low: 0.50, value: 0.546656}
+    - {high: 0.60, low: 0.50, value: 0.547600}
+    - {high: 0.60, low: 0.50, value: 0.547913}
+    - {high: 0.60, low: 0.50, value: 0.545503}
+    - {high: 0.60, low: 0.50, value: 0.545053}
+    - {high: 0.60, low: 0.50, value: 0.545445}
+    - {high: 0.60, low: 0.50, value: 0.545617}
+    - {high: 0.60, low: 0.50, value: 0.546881}
+    - {high: 0.60, low: 0.50, value: 0.546136}
+    - {high: 0.60, low: 0.50, value: 0.545856}
+    - {high: 0.60, low: 0.50, value: 0.544873}
+    - {high: 0.60, low: 0.50, value: 0.547100}
+    - {high: 0.60, low: 0.50, value: 0.547476}
+    - {high: 0.60, low: 0.50, value: 0.544653}
+    - {high: 0.60, low: 0.50, value: 0.546249}
+    - {high: 0.60, low: 0.50, value: 0.547484}
+    - {high: 0.60, low: 0.50, value: 0.546569}
+    - {high: 0.60, low: 0.50, value: 0.550218}
+    - {high: 0.60, low: 0.50, value: 0.541687}
+    - {high: 0.60, low: 0.50, value: 0.552087}
+    - {high: 0.70, low: 0.60, value: 0.641947}
+    - {high: 0.70, low: 0.60, value: 0.642814}
+    - {high: 0.70, low: 0.60, value: 0.643387}
+    - {high: 0.70, low: 0.60, value: 0.644503}
+    - {high: 0.70, low: 0.60, value: 0.644526}
+    - {high: 0.70, low: 0.60, value: 0.643442}
+    - {high: 0.70, low: 0.60, value: 0.643294}
+    - {high: 0.70, low: 0.60, value: 0.644553}
+    - {high: 0.70, low: 0.60, value: 0.644205}
+    - {high: 0.70, low: 0.60, value: 0.644230}
+    - {high: 0.70, low: 0.60, value: 0.647755}
+    - {high: 0.70, low: 0.60, value: 0.644454}
+    - {high: 0.70, low: 0.60, value: 0.643934}
+    - {high: 0.70, low: 0.60, value: 0.644979}
+    - {high: 0.70, low: 0.60, value: 0.645128}
+    - {high: 0.70, low: 0.60, value: 0.644865}
+    - {high: 0.70, low: 0.60, value: 0.645626}
+    - {high: 0.70, low: 0.60, value: 0.644241}
+    - {high: 0.70, low: 0.60, value: 0.645990}
+    - {high: 0.70, low: 0.60, value: 0.646070}
+    - {high: 0.70, low: 0.60, value: 0.644071}
+    - {high: 0.70, low: 0.60, value: 0.644927}
+    - {high: 0.70, low: 0.60, value: 0.644218}
+    - {high: 0.70, low: 0.60, value: 0.645033}
+    - {high: 0.70, low: 0.60, value: 0.645295}
+    - {high: 0.70, low: 0.60, value: 0.645055}
+    - {high: 0.70, low: 0.60, value: 0.644325}
+    - {high: 0.70, low: 0.60, value: 0.645494}
+    - {high: 0.70, low: 0.60, value: 0.647063}
+    - {high: 0.70, low: 0.60, value: 0.646091}
+    - {high: 0.70, low: 0.60, value: 0.644642}
+    - {high: 0.70, low: 0.60, value: 0.649031}
+    - {high: 0.70, low: 0.60, value: 0.645315}
+    - {high: 0.70, low: 0.60, value: 0.646278}
+    - {high: 0.70, low: 0.60, value: 0.642275}
+    - {high: 0.70, low: 0.60, value: 0.645331}
+    - {high: 0.70, low: 0.60, value: 0.648542}
+    - {high: 0.70, low: 0.60, value: 0.647365}
+    - {high: 0.70, low: 0.60, value: 0.647871}
+    - {high: 0.70, low: 0.60, value: 0.647687}
+    - {high: 0.70, low: 0.60, value: 0.648593}
+    - {high: 0.80, low: 0.70, value: 0.745055}
+    - {high: 0.80, low: 0.70, value: 0.745138}
+    - {high: 0.80, low: 0.70, value: 0.744972}
+    - {high: 0.80, low: 0.70, value: 0.745210}
+    - {high: 0.80, low: 0.70, value: 0.745128}
+    - {high: 0.80, low: 0.70, value: 0.743838}
+    - {high: 0.80, low: 0.70, value: 0.745806}
+    - {high: 0.80, low: 0.70, value: 0.746450}
+    - {high: 0.80, low: 0.70, value: 0.744231}
+    - {high: 0.80, low: 0.70, value: 0.744241}
+    - {high: 0.80, low: 0.70, value: 0.745476}
+    - {high: 0.80, low: 0.70, value: 0.743618}
+    - {high: 0.80, low: 0.70, value: 0.744807}
+    - {high: 0.80, low: 0.70, value: 0.744807}
+    - {high: 0.80, low: 0.70, value: 0.744754}
+    - {high: 0.80, low: 0.70, value: 0.745667}
+    - {high: 0.80, low: 0.70, value: 0.745252}
+    - {high: 0.80, low: 0.70, value: 0.743989}
+    - {high: 0.80, low: 0.70, value: 0.745765}
+    - {high: 0.80, low: 0.70, value: 0.743463}
+    - {high: 0.80, low: 0.70, value: 0.743877}
+    - {high: 0.80, low: 0.70, value: 0.745196}
+    - {high: 0.80, low: 0.70, value: 0.743266}
+    - {high: 0.80, low: 0.70, value: 0.743670}
+    - {high: 0.80, low: 0.70, value: 0.749418}
+    - {high: 0.80, low: 0.70, value: 0.743494}
+    - {high: 0.80, low: 0.70, value: 0.744070}
+    - {high: 0.80, low: 0.70, value: 0.747980}
+    - {high: 0.80, low: 0.70, value: 0.742765}
+    - {high: 0.80, low: 0.70, value: 0.747342}
+    - {high: 0.80, low: 0.70, value: 0.748645}
+    - {high: 0.80, low: 0.70, value: 0.747766}
+    - {high: 0.80, low: 0.70, value: 0.746284}
+    - {high: 0.80, low: 0.70, value: 0.745893}
+    - {high: 0.80, low: 0.70, value: 0.744650}
+    - {high: 0.80, low: 0.70, value: 0.747138}
+    - {high: 0.80, low: 0.70, value: 0.744299}
+    - {high: 0.90, low: 0.80, value: 0.844010}
+    - {high: 0.90, low: 0.80, value: 0.841624}
+    - {high: 0.90, low: 0.80, value: 0.839439}
+    - {high: 0.90, low: 0.80, value: 0.842983}
+    - {high: 0.90, low: 0.80, value: 0.845328}
+    - {high: 0.90, low: 0.80, value: 0.842699}
+    - {high: 0.90, low: 0.80, value: 0.843070}
+    - {high: 0.90, low: 0.80, value: 0.843966}
+    - {high: 0.90, low: 0.80, value: 0.843642}
+    - {high: 0.90, low: 0.80, value: 0.843814}
+    - {high: 0.90, low: 0.80, value: 0.843247}
+    - {high: 0.90, low: 0.80, value: 0.842052}
+    - {high: 0.90, low: 0.80, value: 0.841852}
+    - {high: 0.90, low: 0.80, value: 0.841631}
+    - {high: 0.90, low: 0.80, value: 0.843776}
+    - {high: 0.90, low: 0.80, value: 0.843633}
+    - {high: 0.90, low: 0.80, value: 0.844989}
+    - {high: 0.90, low: 0.80, value: 0.842634}
+    - {high: 0.90, low: 0.80, value: 0.842372}
+    - {high: 0.90, low: 0.80, value: 0.840982}
+    - {high: 0.90, low: 0.80, value: 0.844525}
+    - {high: 0.90, low: 0.80, value: 0.844169}
+    - {high: 0.90, low: 0.80, value: 0.841818}
+    - {high: 0.90, low: 0.80, value: 0.841584}
+    - {high: 0.90, low: 0.80, value: 0.847301}
+    - {high: 0.90, low: 0.80, value: 0.844237}
+    - {high: 0.90, low: 0.80, value: 0.844732}
+    - {high: 0.90, low: 0.80, value: 0.840112}
+    - {high: 0.90, low: 0.80, value: 0.841953}
+    - {high: 0.90, low: 0.80, value: 0.839551}
+    - {high: 0.90, low: 0.80, value: 0.843921}
+    - {high: 0.90, low: 0.80, value: 0.840663}
+    - {high: 0.90, low: 0.80, value: 0.839807}
+    - {high: 1.00, low: 0.90, value: 0.933289}
+    - {high: 1.00, low: 0.90, value: 0.936214}
+    - {high: 1.00, low: 0.90, value: 0.936772}
+    - {high: 1.00, low: 0.90, value: 0.938872}
+    - {high: 1.00, low: 0.90, value: 0.939128}
+    - {high: 1.00, low: 0.90, value: 0.940969}
+    - {high: 1.00, low: 0.90, value: 0.941744}
+    - {high: 1.00, low: 0.90, value: 0.939754}
+    - {high: 1.00, low: 0.90, value: 0.938938}
+    - {high: 1.00, low: 0.90, value: 0.940723}
+    - {high: 1.00, low: 0.90, value: 0.939686}
+    - {high: 1.00, low: 0.90, value: 0.942379}
+    - {high: 1.00, low: 0.90, value: 0.943168}
+    - {high: 1.00, low: 0.90, value: 0.938163}
+    - {high: 1.00, low: 0.90, value: 0.942689}
+    - {high: 1.00, low: 0.90, value: 0.938145}
+    - {high: 1.00, low: 0.90, value: 0.941036}
+    - {high: 1.00, low: 0.90, value: 0.940609}
+    - {high: 1.00, low: 0.90, value: 0.938813}
+    - {high: 1.00, low: 0.90, value: 0.930692}
+- header: {name: "x"}
+  values:
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001485}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002082}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002435}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003177}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003375}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005010}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005057}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005502}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.007838}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.007946}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008098}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008984}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012222}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012481}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012629}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012939}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014777}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.019506}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.019789}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020117}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020758}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.024360}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.030053}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.030836}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031384}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031887}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033342}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.047625}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.048750}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.049902}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050503}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054276}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.075273}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.077971}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079285}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080162}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.089690}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.114430}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.120660}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.123745}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125217}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128302}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.185267}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.191855}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.194192}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.196700}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.292316}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.300180}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.307277}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.460528}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001485}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002087}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002434}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003187}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003378}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005052}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005064}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005504}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008023}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.007983}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008092}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008984}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012643}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012719}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012675}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012946}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014782}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020109}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020107}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020155}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020802}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.024317}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031483}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031788}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031845}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031978}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033325}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.049806}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050096}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050321}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050443}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054738}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.078168}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079646}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079648}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080500}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.089625}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.120808}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.124825}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126259}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125983}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128565}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.193883}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.196450}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198187}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198179}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.303851}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.308880}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309650}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.467661}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.466130}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001485}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002095}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002435}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003209}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003380}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005058}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005086}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005508}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008001}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008029}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008112}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008982}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012738}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012653}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012722}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012978}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014741}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020170}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020048}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020208}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020883}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031940}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031825}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031807}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032103}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033517}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050272}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050024}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050671}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050818}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054704}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.078689}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079389}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080084}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080620}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.089583}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.123376}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125924}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125463}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126930}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128719}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.196041}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197254}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198600}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198639}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.307302}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.308911}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.311374}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.470096}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.481873}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001484}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002092}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002434}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003216}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003384}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005073}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005100}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005498}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008001}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008053}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008102}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008966}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012694}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012693}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012770}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012967}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014772}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020058}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020192}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020231}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020783}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031955}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031716}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031814}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032091}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033419}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050496}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.049928}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050619}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050752}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054497}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.078992}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079643}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080092}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080307}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.089413}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.123817}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125265}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126437}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126481}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.129143}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197397}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197963}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.200273}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198783}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.306678}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309497}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.314517}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.468634}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.464097}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001485}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002090}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002437}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003216}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003378}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005082}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005094}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005485}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008031}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008073}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008083}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008976}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012647}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012772}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012763}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012916}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014811}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020096}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020219}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020221}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020861}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031914}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031844}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031814}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032051}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033350}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050322}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050162}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050547}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050642}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054877}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079140}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079943}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080144}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080548}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.090073}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.124293}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125384}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126559}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126579}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127246}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.196919}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197748}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198614}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199378}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.307385}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.310661}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.308600}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.473681}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.467457}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001480}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002086}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002437}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003208}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003387}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005084}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005088}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005495}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008055}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008060}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008113}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008989}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012702}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012805}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012744}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012939}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014734}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020159}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020212}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020183}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020729}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031858}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032004}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031842}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031993}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033402}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050484}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050209}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050749}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050591}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054018}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079072}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079550}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080324}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080747}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.124357}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126510}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126134}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126310}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.129253}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197441}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199135}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198302}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199093}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.308246}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309258}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.314618}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.469293}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001481}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002092}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002433}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003208}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003379}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005096}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005090}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005482}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008061}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008075}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008078}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008997}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012767}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012782}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012746}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012982}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014843}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020269}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020223}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020181}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020782}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031907}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032061}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031823}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032082}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033377}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050578}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050287}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050688}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050849}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054455}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079421}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079684}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080289}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080684}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.089582}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.124679}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126431}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126508}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127643}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128202}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198554}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199388}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198856}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199947}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309544}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.311031}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.311390}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.476294}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001489}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002099}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003211}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003382}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005087}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005098}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005503}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008057}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008072}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008088}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008945}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012781}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012787}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012757}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012979}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014738}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020242}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020218}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020153}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020741}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032078}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032033}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031763}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032071}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033573}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050844}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050228}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050803}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050929}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054941}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079410}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080160}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080135}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080449}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126426}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127259}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125909}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.129745}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198222}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.200146}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199593}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198211}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.312528}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.311908}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.308263}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.486285}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001488}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002104}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003225}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003396}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005082}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005115}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005481}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008057}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008065}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008088}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.009036}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012745}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012755}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012783}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012940}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.014819}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020200}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020221}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020144}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020852}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032173}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032147}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031742}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032217}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033328}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050812}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050504}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050692}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050438}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.054943}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079780}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079884}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080283}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.081376}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127244}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127101}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128144}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126355}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198617}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.200817}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199760}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.202928}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.311056}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309863}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.298529}
+    - {high: 6.30957e-01, low: 3.98107e-01, value: 0.488756}
+    - {high: 1.00000e+00, low: 6.30957e-01, value: 0.693273}
+    - {high: 1.58489e-03, low: 1.00000e-03, value: 0.001487}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002095}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003216}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003370}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005076}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005108}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005514}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008067}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008127}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008095}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.009010}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012809}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012819}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012767}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.013017}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020324}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020272}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020129}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020865}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032126}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032187}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031746}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032424}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.033799}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050672}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050510}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050704}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.051087}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080026}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080043}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080910}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080774}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126303}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128078}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128018}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.200883}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.199858}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.201156}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.201975}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.310616}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.313681}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002102}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003224}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003406}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005080}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005089}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005490}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008060}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008129}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008060}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012785}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012838}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012786}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012993}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020299}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020300}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020274}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020674}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032062}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032106}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.031983}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032057}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050850}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050584}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.051128}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050784}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079790}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.080264}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079723}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.081455}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126338}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.125710}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.127524}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198725}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.197821}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.198407}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.310347}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.307693}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002111}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003231}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003371}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005051}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005115}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005482}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008062}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008170}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.007997}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012767}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012787}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012705}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012848}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020345}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020409}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.019998}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020873}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032045}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032149}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032015}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032125}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050724}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.049974}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050790}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.051287}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079650}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.081339}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.081989}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128898}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.128220}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.203507}
+    - {high: 2.51189e-01, low: 1.58489e-01, value: 0.201261}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.319573}
+    - {high: 2.51189e-03, low: 1.58489e-03, value: 0.002113}
+    - {high: 3.98107e-03, low: 2.51189e-03, value: 0.003236}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005096}
+    - {high: 6.30957e-03, low: 3.98107e-03, value: 0.005175}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008019}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.008000}
+    - {high: 1.00000e-02, low: 6.30957e-03, value: 0.007863}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012895}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012935}
+    - {high: 1.58489e-02, low: 1.00000e-02, value: 0.012727}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020444}
+    - {high: 2.51189e-02, low: 1.58489e-02, value: 0.020234}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032414}
+    - {high: 3.98107e-02, low: 2.51189e-02, value: 0.032281}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050680}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.050699}
+    - {high: 6.30957e-02, low: 3.98107e-02, value: 0.051321}
+    - {high: 1.00000e-01, low: 6.30957e-02, value: 0.079277}
+    - {high: 1.58489e-01, low: 1.00000e-01, value: 0.126721}
+    - {high: 3.98107e-01, low: 2.51189e-01, value: 0.309709}
+- header: {name: "Q2"}
+  values:
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.069750}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.252959}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.835861}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.331653}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.124327}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.338045}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.393939}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.643096}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.361112}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.431993}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.088219}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.258186}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.398528}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.459239}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.224859}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.206657}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.723186}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.512473}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.328507}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.376747}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.472551}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 18.367225}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.619386}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.390122}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.514245}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.143526}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.286475}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.527331}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.706395}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.322112}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.246137}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.475786}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.959586}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.619410}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.546472}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.806437}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 62.437411}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 8.446250}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 14.091715}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 24.081847}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.863386}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 70.963446}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 14.877887}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 24.587905}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 42.637264}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.666949}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 25.764658}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 43.187201}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 74.915298}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 76.593488}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.070249}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.248134}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.838513}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.328345}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.124735}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.323173}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.378367}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.635585}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.317759}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.396573}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.086797}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.243225}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.332341}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.378918}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.209382}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.181808}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.716188}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.393567}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.221634}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.377868}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.429949}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 18.344783}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.441142}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.203595}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.391497}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.116277}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.209141}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.226874}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.429075}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.154897}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.233923}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.316956}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.499301}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.161933}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.459881}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.993712}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 62.462984}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.651714}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.400867}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.334686}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.652170}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 71.626160}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.838922}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.470816}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.471683}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 74.233289}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.859027}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.697035}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.271526}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 42.694183}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.943421}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.071691}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.245919}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.833900}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.313334}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.122397}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.323796}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.361089}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.645708}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.330410}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.376692}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.092662}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.243460}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.318221}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.404198}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.181007}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.178497}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.719799}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.376148}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.237400}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.367799}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.407469}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.384848}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.190514}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.445063}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.007863}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.196861}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.159207}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.456793}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.171037}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.179966}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.452396}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.430873}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.299399}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.207815}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.610190}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 62.681644}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.393624}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.303850}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.547332}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.406891}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 71.060144}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.605792}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.328094}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.693452}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.878758}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.446283}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.879469}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.602484}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.885801}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 75.636013}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.072711}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.247673}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.840053}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.311781}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.140607}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.314572}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.365644}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.644503}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.326743}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.363429}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.114201}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.242960}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.330275}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.386220}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.164886}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.193995}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.708637}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.404592}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.180369}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.423901}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.406315}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.376345}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.204769}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.460365}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.026474}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.249835}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.155164}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.497872}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.061506}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.217255}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.251710}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.446941}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.259983}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.235850}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.924485}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 61.795664}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.331671}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.379871}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.391056}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.007796}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 70.092606}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.410931}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.501320}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.334865}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.808236}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.513013}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.578779}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.561070}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 42.404772}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.655670}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.073448}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.249033}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.837553}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.310387}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.151129}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.315348}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.372096}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.669085}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.319050}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.375475}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.145627}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.251414}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.334432}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.371990}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.166692}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.217910}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.744443}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.393141}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.171175}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.435168}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.441786}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.390272}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.171244}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.495346}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.083075}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.247882}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.164938}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.500087}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.185614}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.201096}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.559944}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.456337}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.141354}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.149516}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.824264}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 62.124919}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.359790}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.315667}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.379231}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.101501}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 69.717257}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.542694}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.479025}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.383015}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.263508}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.224737}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.149297}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 74.017699}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.237761}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 74.878555}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.072406}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.248347}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.836779}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.311843}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.152403}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.313934}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.381134}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.668602}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.314386}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.372917}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.152185}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.272107}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.330481}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.373197}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.154648}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.232323}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.704053}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.379669}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.144174}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.497275}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.450609}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.399008}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.130325}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.561442}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.074077}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.235153}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.156922}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.494942}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.079934}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.964619}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.218127}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.419448}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.089576}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.243268}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.871757}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.304466}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.314462}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.177346}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.846180}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 70.164417}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.502091}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.564055}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.724183}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.717779}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.592437}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.660805}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.609963}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.572121}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.069785}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.245540}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 1.836577}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.313015}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.148944}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.312588}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.372693}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.660795}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.316104}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.365245}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.158921}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.268262}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.316673}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.367146}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.162346}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.226674}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.751415}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.372999}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.140033}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.502219}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.444814}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.385024}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.131330}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.568784}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.046853}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.308600}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.114331}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.522790}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.028576}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.089015}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.055900}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.369084}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.206092}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.016828}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.978268}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 61.848824}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.322360}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.252589}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.327481}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.084260}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 69.976256}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.511185}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.452637}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.769501}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.047136}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.341311}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.368043}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.637316}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.593905}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.071168}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.240042}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.310774}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.138630}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.315738}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.359520}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.652490}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.316986}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.344829}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.145564}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.233874}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.318091}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.356401}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.130230}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.216549}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.664130}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.364349}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.108285}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.533612}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.347741}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.368810}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.097807}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.575850}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.060319}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.345956}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.080818}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.546128}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.050743}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.145394}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.128397}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.409030}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.119203}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.297588}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.731328}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.226196}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.308669}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.031967}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 69.477748}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.411118}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.239291}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.414882}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.502893}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.255257}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.837982}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.393679}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.692383}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.070460}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.228461}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.301960}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.138815}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.313252}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.332822}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.651792}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.321694}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.324818}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.149705}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.266784}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.324704}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.351300}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.108908}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.155782}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 10.759902}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.368563}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.079852}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.561209}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.371952}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.357735}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.081907}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.627930}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.064463}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.097803}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.051591}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.603950}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.064000}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.047767}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 36.361200}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.359499}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.137749}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.022835}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.989557}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.239028}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.224232}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.007295}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 70.502689}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.332533}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.433759}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.804133}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 73.859866}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.257589}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.086370}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 72.445143}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.679808}
+    - {high: 1.77828e+02, low: 1.00000e+02, value: 127.000393}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.073659}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.232855}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.297289}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.121928}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.311794}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.342429}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.676688}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.315494}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.326981}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.170407}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 6.276033}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.324032}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.344595}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.092940}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.186624}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.350026}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.060882}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.551953}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.441142}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.346571}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.062078}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.738810}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.943198}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 21.306883}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.047649}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.598735}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.054843}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.041906}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.362859}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.151739}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.955200}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.260885}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.252782}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.262621}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.011450}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.393920}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.917525}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.252359}
+    - {high: 1.00000e+02, low: 5.62341e+01, value: 71.587408}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.810758}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.994396}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.232196}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.298465}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.145974}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.319543}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.303411}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.644844}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.320517}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.327093}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.185012}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.323851}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.332151}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.098547}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.218936}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.347732}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.021685}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.580270}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.468397}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.354458}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.028186}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.800239}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.049318}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.024284}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.733551}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.974171}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.860862}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.416382}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.298295}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.090900}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 39.754688}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.193403}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.407002}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 41.910241}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.231421}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.909866}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 39.068453}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.962055}
+    - {high: 5.62341e+01, low: 3.16228e+01, value: 40.106344}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.217907}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.294986}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.125090}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.318256}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.294769}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.685341}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.317863}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.319279}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.295407}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.326342}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.349218}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.143573}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.187685}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.352188}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.030439}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.587789}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.368834}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.344255}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.056520}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.838959}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.023621}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.004680}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.674865}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.128591}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.033299}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.560028}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.081793}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.033123}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.353728}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 23.365639}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 13.318782}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.542969}
+    - {high: 3.16228e+01, low: 1.77828e+01, value: 22.668324}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.218613}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.285138}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.312447}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.264738}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.304812}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.284210}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.237135}
+    - {high: 1.77828e+00, low: 1.00000e+00, value: 1.301616}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.321301}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.130798}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.321935}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 4.036330}
+    - {high: 3.16228e+00, low: 1.77828e+00, value: 2.319079}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.991950}
+    - {high: 5.62341e+00, low: 3.16228e+00, value: 3.950634}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.594648}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.917911}
+    - {high: 1.00000e+01, low: 5.62341e+00, value: 7.550396}
+    - {high: 1.77828e+01, low: 1.00000e+01, value: 12.763178}
+    - {high: 1.77828e+02, low: 1.00000e+02, value: 126.319784}
+- header: {name: "y"}
+  values:
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
+    - {high: 0.95000, low: 0.01000, value: 0.48000}
